@@ -1,0 +1,874 @@
+@article{park2013dtulp,
+  title={dTULP, the Drosophila melanogaster homolog of tubby, regulates transient receptor potential channel localization in cilia},
+  author={Park, Jina and Lee, Jeongmi and Shim, Jaewon and Han, Woongsu and Lee, Jinu and Bae, Yong Chul and Chung, Yun Doo and Kim, Chul Hoon and Moon, Seok Jun},
+  journal={PLoS genetics},
+  volume={9},
+  number={9},
+  pages={e1003814},
+  year={2013},
+  publisher={Public Library of Science}
+}
+
+@article{park2015ciliary,
+  title={Ciliary phosphoinositide regulates ciliary protein trafficking in Drosophila},
+  author={Park, Jina and Lee, Nayoung and Kavoussi, Adriana and Seo, Jeong Taeg and Kim, Chul Hoon and Moon, Seok Jun},
+  journal={Cell reports},
+  volume={13},
+  number={12},
+  pages={2808--2816},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{phua2017dynamic,
+  title={Dynamic remodeling of membrane composition drives cell cycle through primary cilia excision},
+  author={Phua, Siew Cheng and Chiba, Shuhei and Suzuki, Masako and Su, Emily and Roberson, Elle C and Pusapati, Ganesh V and Setou, Mitsutoshi and Rohatgi, Rajat and Reiter, Jeremy F and Ikegami, Koji and others},
+  journal={Cell},
+  volume={168},
+  number={1},
+  pages={264--279},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{xu2016phosphatidylinositol,
+  title={Phosphatidylinositol phosphate kinase PIPKI [gamma] and phosphatase INPP5E coordinate initiation of ciliogenesis},
+  author={Xu, Qingwen and Zhang, Yuxia and Wei, Qing and Huang, Yan and Hu, Jinghua and Ling, Kun},
+  journal={Nature communications},
+  volume={7},
+  year={2016},
+  publisher={Nature Publishing Group}
+}
+
+@article{slaats2015mks1,
+  title={MKS1 regulates ciliary INPP5E levels in Joubert syndrome},
+  author={Slaats, Gisela G and Isabella, Christine R and Kroes, Hester Y and Dempsey, Jennifer C and Gremmels, Hendrik and Monroe, Glen R and Phelps, Ian G and Duran, Karen J and Adkins, Jonathan and Kumar, Sairam A and others},
+  journal={Journal of medical genetics},
+  pages={jmedgenet--2015},
+  year={2015},
+  publisher={BMJ Publishing Group Ltd}
+}
+
+@article{garcia2015phosphoinositides,
+  title={Phosphoinositides regulate ciliary protein trafficking to modulate hedgehog signaling},
+  author={Garcia-Gonzalo, Francesc R and Phua, Siew Cheng and Roberson, Elle C and Garcia, Galo and Abedin, Monika and Schurmans, St{\'e}phane and Inoue, Takanari and Reiter, Jeremy F},
+  journal={Developmental cell},
+  volume={34},
+  number={4},
+  pages={400--409},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{nakatsu2015phosphoinositide,
+  title={A phosphoinositide code for primary cilia},
+  author={Nakatsu, Fubito},
+  journal={Developmental cell},
+  volume={34},
+  number={4},
+  pages={379--380},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{chavez2015modulation,
+  title={Modulation of ciliary phosphoinositide content regulates trafficking and sonic hedgehog signaling output},
+  author={Ch{\'a}vez, Marcelo and Ena, Sabrina and Van Sande, Jacqueline and de Kerchove d’Exaerde, Alban and Schurmans, St{\'e}phane and Schiffmann, Serge N},
+  journal={Developmental cell},
+  volume={34},
+  number={3},
+  pages={338--350},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{avidor2015shared,
+  title={Shared and distinct mechanisms of compartmentalized and cytosolic ciliogenesis},
+  author={Avidor-Reiss, Tomer and Leroux, Michel R},
+  journal={Current Biology},
+  volume={25},
+  number={23},
+  pages={R1143--R1150},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{vieillard2016transition,
+  title={Transition zone assembly and its contribution to axoneme formation in Drosophila male germ cells},
+  author={Vieillard, Jennifer and Paschaki, Marie and Duteyrat, Jean-Luc and Augi{\`e}re, C{\'e}line and Cortier, Elisabeth and Lapart, Jean-Andr{\'e} and Thomas, Jo{\"e}lle and Durand, B{\'e}n{\'e}dicte},
+  journal={J Cell Biol},
+  pages={jcb--201603086},
+  year={2016},
+  publisher={Rockefeller University Press}
+}
+
+@article{basiri2014migrating,
+  title={A migrating ciliary gate compartmentalizes the site of axoneme assembly in Drosophila spermatids},
+  author={Basiri, Marcus L and Ha, Andrew and Chadha, Abhishek and Clark, Nicole M and Polyanovsky, Andrey and Cook, Boaz and Avidor-Reiss, Tomer},
+  journal={Current Biology},
+  volume={24},
+  number={22},
+  pages={2622--2631},
+  year={2014},
+  publisher={Elsevier}
+}
+
+@article{pratt2016drosophila,
+  title={Drosophila sensory cilia lacking MKS proteins exhibit striking defects in development but only subtle defects in adults},
+  author={Pratt, Metta B and Titlow, Joshua S and Davis, Ilan and Barker, Amy R and Dawe, Helen R and Raff, Jordan W and Roque, Helio},
+  journal={J Cell Sci},
+  volume={129},
+  number={20},
+  pages={3732--3743},
+  year={2016},
+  publisher={The Company of Biologists Ltd}
+}
+
+@article{enjolras2012drosophila,
+  title={Drosophila chibby is required for basal body formation and ciliogenesis but not for Wg signaling},
+  author={Enjolras, Camille and Thomas, Jo{\"e}lle and Chhin, Brigitte and Cortier, Elisabeth and Duteyrat, Jean-Luc and Soulavie, Fabien and Kernan, Maurice J and Lauren{\c{c}}on, Anne and Durand, B{\'e}n{\'e}dicte},
+  journal={J Cell Biol},
+  volume={197},
+  number={2},
+  pages={313--325},
+  year={2012},
+  publisher={Rockefeller University Press}
+}
+
+@article{fabian2010phosphatidylinositol,
+  title={Phosphatidylinositol 4, 5-bisphosphate directs spermatid cell polarity and exocyst localization in Drosophila},
+  author={Fabian, Lacramioara and Wei, Ho-Chun and Rollins, Janet and Noguchi, Tatsuhiko and Blankenship, J Todd and Bellamkonda, Kishan and Polevoy, Gordon and Gervais, Louis and Guichet, Antoine and Fuller, Margaret T and others},
+  journal={Molecular biology of the cell},
+  volume={21},
+  number={9},
+  pages={1546--1555},
+  year={2010},
+  publisher={Am Soc Cell Biol}
+}
+
+@article{wei2008depletion,
+  title={Depletion of plasma membrane PtdIns (4, 5) P2 reveals essential roles for phosphoinositides in flagellar biogenesis},
+  author={Wei, Ho-Chun and Rollins, Janet and Fabian, Lacramioara and Hayes, Madeline and Polevoy, Gordon and Bazinet, Christopher and Brill, Julie A},
+  journal={Journal of cell science},
+  volume={121},
+  number={7},
+  pages={1076--1084},
+  year={2008},
+  publisher={The Company of Biologists Ltd}
+}
+
+@article{han2003intraflagellar,
+  title={Intraflagellar transport is required in Drosophila to differentiate sensory cilia but not sperm},
+  author={Han, Young-Goo and Kwok, Benjamin H and Kernan, Maurice J},
+  journal={Current Biology},
+  volume={13},
+  number={19},
+  pages={1679--1686},
+  year={2003},
+  publisher={Elsevier}
+}
+
+@article{lee2008ift,
+  title={An IFT-A protein is required to delimit functionally distinct zones in mechanosensory cilia},
+  author={Lee, Eugene and Sivan-Loukianova, Elena and Eberl, Daniel F and Kernan, Maurice J},
+  journal={Current Biology},
+  volume={18},
+  number={24},
+  pages={1899--1906},
+  year={2008},
+  publisher={Elsevier}
+}
+
+@article{cheng2010role,
+  title={The role of the TRP channel NompC in Drosophila larval and adult locomotion},
+  author={Cheng, Li E and Song, Wei and Looger, Loren L and Jan, Lily Yeh and Jan, Yuh Nung},
+  journal={Neuron},
+  volume={67},
+  number={3},
+  pages={373--380},
+  year={2010},
+  publisher={Elsevier}
+}
+
+@article{gong2004two,
+  title={Two interdependent TRPV channel subunits, inactive and Nanchung, mediate hearing in Drosophila},
+  author={Gong, Zhefeng and Son, Wonseok and Chung, Yun Doo and Kim, Janghwan and Shin, Dong Wook and McClung, Colleen A and Lee, Yong and Lee, Hye Won and Chang, Deok-Jin and Kaang, Bong-Kiun and others},
+  journal={Journal of Neuroscience},
+  volume={24},
+  number={41},
+  pages={9059--9066},
+  year={2004},
+  publisher={Soc Neuroscience}
+}
+
+@article{raghu2009rhabdomere,
+  title={Rhabdomere biogenesis in Drosophila photoreceptors is acutely sensitive to phosphatidic acid levels},
+  author={Raghu, Padinjat and Coessens, Elise and Manifava, Maria and Georgiev, Plamen and Pettitt, Trevor and Wood, Eleanor and Garcia-Murillas, Isaac and Okkenhaug, Hanneke and Trivedi, Deepti and Zhang, Qifeng and others},
+  journal={The Journal of cell biology},
+  volume={185},
+  number={1},
+  pages={129--145},
+  year={2009},
+  publisher={Rockefeller University Press}
+}
+
+@article{gervais2008pip5k,
+  title={PIP5K-dependent production of PIP2 sustains microtubule organization to establish polarized transport in the Drosophila oocyte},
+  author={Gervais, Louis and Claret, Sandra and Januschke, Jens and Roth, Siegfried and Guichet, Antoine},
+  journal={Development},
+  volume={135},
+  number={23},
+  pages={3829--3838},
+  year={2008},
+  publisher={The Company of Biologists Ltd}
+}
+
+@misc{Matlab,
+  year = {R2016b},
+  author = {MATLAB and {\relax Image Processing Toolbox}},
+  title = {Version 9.1.0, The MathWorks Inc., Natick, Massachusetts, United States},
+  publisher = {The MathWorks Inc.},
+  address = {Natick, Massachusetts}
+}
+
+@article{schneider2012nih,
+  title={NIH Image to ImageJ: 25 years of image analysis},
+  author={Schneider, Caroline A and Rasband, Wayne S and Eliceiri, Kevin W},
+  journal={Nature methods},
+  volume={9},
+  number={7},
+  pages={671--675},
+  year={2012},
+  publisher={Nature Research}
+}
+
+@article{desroches2010quantitative,
+  title={Quantitative trait locus mapping of gravitaxis behaviour in Drosophila melanogaster},
+  author={Desroches, Christie E and Busto, Macarena and Riedl, Craig AL and Mackay, Trudy FC and Sokolowski, Marla B},
+  journal={Genetics research},
+  volume={92},
+  number={3},
+  pages={167--174},
+  year={2010},
+  publisher={Cambridge University Press}
+}
+
+@article{hassan1998skittles,
+  title={skittles, a Drosophila phosphatidylinositol 4-phosphate 5-kinase, is required for cell viability, germline development and bristle morphology, but not for neurotransmitter release},
+  author={Hassan, Bassem A and Prokopenko, Sergei N and Breuer, Sebastian and Zhang, Bing and Paululat, Achim and Bellen, Hugo J},
+  journal={Genetics},
+  volume={150},
+  number={4},
+  pages={1527--1537},
+  year={1998},
+  publisher={Genetics Soc America}
+}
+
+@article{cachero2011gene,
+  title={The gene regulatory cascade linking proneural specification with differentiation in Drosophila sensory neurons},
+  author={Cachero, Sebasti{\'a}n and Simpson, T Ian and zur Lage, Petra I and Ma, Lina and Newton, Fay G and Holohan, Eimear E and Armstrong, J Douglas and Jarman, Andrew P},
+  journal={PLoS biology},
+  volume={9},
+  number={1},
+  pages={e1000568},
+  year={2011},
+  publisher={Public Library of Science}
+}
+
+@article{franz2013cp110,
+  title={CP110 exhibits novel regulatory activities during centriole assembly in Drosophila},
+  author={Franz, Anna and Roque, H{\'e}lio and Saurya, Saroj and Dobbelaere, Jeroen and Raff, Jordan W},
+  journal={J Cell Biol},
+  pages={jcb--201305109},
+  year={2013},
+  publisher={Rockefeller University Press}
+}
+
+@article{baker2004mechanosensory,
+  title={Mechanosensory-defective, male-sterile unc mutants identify a novel basal body protein required for ciliogenesis in Drosophila},
+  author={Baker, James D and Adhikarakunnathu, Sreedevi and Kernan, Maurice J},
+  journal={Development},
+  volume={131},
+  number={14},
+  pages={3411--3422},
+  year={2004},
+  publisher={Oxford University Press for The Company of Biologists Limited}
+}
+
+@article{dixon2012exome,
+  title={Exome sequencing can improve diagnosis and alter patient management},
+  author={Dixon-Salazar, Tracy J and Silhavy, Jennifer L and Udpa, Nitin and Schroth, Jana and Bielas, Stephanie and Schaffer, Ashleigh E and Olvera, Jesus and Bafna, Vineet and Zaki, Maha S and Abdel-Salam, Ghada H and others},
+  journal={Science translational medicine},
+  volume={4},
+  number={138},
+  pages={138ra78--138ra78},
+  year={2012},
+  publisher={American Association for the Advancement of Science}
+}
+
+@article{kamikouchi2009neural,
+  title={The neural basis of Drosophila gravity-sensing and hearing},
+  author={Kamikouchi, Azusa and Inagaki, Hidehiko K and Effertz, Thomas and Hendrich, Oliver and Fiala, Andr{\'e} and G{\"o}pfert, Martin C and Ito, Kei},
+  journal={Nature},
+  volume={458},
+  number={7235},
+  pages={165},
+  year={2009},
+  publisher={Nature Publishing Group}
+}
+
+@article{perkins2009update,
+  title={Update to the TRiP Stock Collection},
+  author={Perkins, LA and Holderbaum, L and Perrimon, N},
+  year={2009}
+}
+
+@article{devergne2014polarized,
+  title={Polarized deposition of basement membrane proteins depends on Phosphatidylinositol synthase and the levels of Phosphatidylinositol 4, 5-bisphosphate},
+  author={Devergne, Olivier and Tsung, Karen and Barcelo, Gail and Sch{\"u}pbach, Trudi},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={111},
+  number={21},
+  pages={7689--7694},
+  year={2014},
+  publisher={National Acad Sciences}
+}
+
+@article{sun2009trpa,
+  title={TRPA channels distinguish gravity sensing from hearing in Johnston's organ},
+  author={Sun, Yishan and Liu, Lei and Ben-Shahar, Yehuda and Jacobs, Julie S and Eberl, Daniel F and Welsh, Michael J},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={106},
+  number={32},
+  pages={13606--13611},
+  year={2009},
+  publisher={National Acad Sciences}
+}
+
+@article{benzer1967behavioral,
+  title={Behavioral mutants of Drosophila isolated by countercurrent distribution},
+  author={Benzer, Seymour},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={58},
+  number={3},
+  pages={1112--1119},
+  year={1967},
+  publisher={National Acad Sciences}
+}
+
+@article{kim2003trpv,
+  title={A TRPV family ion channel required for hearing in Drosophila},
+  author={Kim, Janghwan and Chung, Yun Doo and Dae-young, Park and Choi, SooKyung and others},
+  journal={Nature},
+  volume={424},
+  number={6944},
+  pages={81},
+  year={2003},
+  publisher={Nature Publishing Group}
+}
+
+
+@article{matsuo2013neuronal,
+  title={Neuronal encoding of sound, gravity, and wind in the fruit fly},
+  author={Matsuo, Eriko and Kamikouchi, Azusa},
+  journal={Journal of Comparative Physiology A},
+  volume={199},
+  number={4},
+  pages={253--262},
+  year={2013},
+  publisher={Springer}
+}
+
+@article{jensen2015formation,
+  title={Formation of the transition zone by Mks5/Rpgrip1L establishes a ciliary zone of exclusion (CIZE) that compartmentalises ciliary signalling proteins and controls PIP 2 ciliary abundance},
+  author={Jensen, Victor L and Li, Chunmei and Bowie, Rachel V and Clarke, Lara and Mohan, Swetha and Blacque, Oliver E and Leroux, Michel R},
+  journal={The EMBO journal},
+  pages={e201488044},
+  year={2015},
+  publisher={EMBO Press}
+}
+
+@article{boekhoff2014drosophila,
+  title={The Drosophila auditory system},
+  author={Boekhoff-Falk, Grace and Eberl, Daniel F},
+  journal={Wiley Interdisciplinary Reviews: Developmental Biology},
+  volume={3},
+  number={2},
+  pages={179--191},
+  year={2014},
+  publisher={Wiley Online Library}
+}
+
+@article{mukhopadhyay2010tulp3,
+  title={TULP3 bridges the IFT-A complex and membrane phosphoinositides to promote trafficking of G protein-coupled receptors into primary cilia},
+  author={Mukhopadhyay, Saikat and Wen, Xiaohui and Chih, Ben and Nelson, Christopher D and Lane, William S and Scales, Suzie J and Jackson, Peter K},
+  journal={Genes \& development},
+  volume={24},
+  number={19},
+  pages={2180--2193},
+  year={2010},
+  publisher={Cold Spring Harbor Lab}
+}
+
+@article{suh2008pip2,
+  title={PIP2 is a necessary cofactor for ion channel function: how and why?},
+  author={Suh, Byung-Chang and Hille, Bertil},
+  journal={Annu. Rev. Biophys.},
+  volume={37},
+  pages={175--195},
+  year={2008},
+  publisher={Annual Reviews}
+}
+
+@incollection{qin2007regulation,
+  title={Regulation of TRP ion channels by phosphatidylinositol-4, 5-bisphosphate},
+  author={Qin, F},
+  booktitle={Transient Receptor Potential (TRP) Channels},
+  pages={509--525},
+  year={2007},
+  publisher={Springer}
+}
+
+@article{yang2015superresolution,
+  title={Superresolution pattern recognition reveals the architectural map of the ciliary transition zone},
+  author={Yang, T Tony and Su, Jimmy and Wang, Won-Jing and Craige, Branch and Witman, George B and Tsou, Meng-Fu Bryan and Liao, Jung-Chi},
+  journal={Scientific reports},
+  volume={5},
+  pages={14096},
+  year={2015},
+  publisher={Nature Publishing Group}
+}
+
+@article{giansanti2015exocyst,
+  title={Exocyst-dependent membrane addition is required for anaphase cell elongation and cytokinesis in Drosophila},
+  author={Giansanti, Maria Grazia and Vanderleest, Timothy E and Jewett, Cayla E and Sechi, Stefano and Frappaolo, Anna and Fabian, Lacramioara and Robinett, Carmen C and Brill, Julie A and Loerke, Dinah and Fuller, Margaret T and others},
+  journal={PLoS genetics},
+  volume={11},
+  number={11},
+  pages={e1005632},
+  year={2015},
+  publisher={Public Library of Science}
+}
+
+@article{wang2004mammalian,
+  title={The mammalian exocyst, a complex required for exocytosis, inhibits tubulin polymerization},
+  author={Wang, Sheng and Liu, Yan and Adamson, Crista L and Valdez, Gregorio and Guo, Wei and Hsu, Shu C},
+  journal={Journal of Biological Chemistry},
+  volume={279},
+  number={34},
+  pages={35958--35966},
+  year={2004},
+  publisher={ASBMB}
+}
+
+@article{liebl2005increased,
+  title={Increased synaptic microtubules and altered synapse development in Drosophila sec8 mutants},
+  author={Liebl, Faith LW and Chen, Kaiyun and Karr, Julie and Sheng, Qi and Featherstone, David E},
+  journal={BMC biology},
+  volume={3},
+  number={1},
+  pages={27},
+  year={2005},
+  publisher={BioMed Central}
+}
+
+@article{murthy2005sec6,
+  title={Sec6 mutations and the Drosophila exocyst complex},
+  author={Murthy, Mala and Ranjan, Ravi and Denef, Natalie and Higashi, Misao EL and Schupbach, Trudi and Schwarz, Thomas L},
+  journal={Journal of cell science},
+  volume={118},
+  number={6},
+  pages={1139--1150},
+  year={2005},
+  publisher={The Company of Biologists Ltd}
+}
+
+@article{reiter2012base,
+  title={The base of the cilium: roles for transition fibres and the transition zone in ciliary formation, maintenance and compartmentalization},
+  author={Reiter, Jeremy F and Blacque, Oliver E and Leroux, Michel R},
+  journal={EMBO reports},
+  volume={13},
+  number={7},
+  pages={608--618},
+  year={2012},
+  publisher={EMBO Press}
+}
+
+@article{williams2011mks,
+  title={MKS and NPHP modules cooperate to establish basal body/transition zone membrane associations and ciliary gate function during ciliogenesis},
+  author={Williams, Corey L and Li, Chunmei and Kida, Katarzyna and Inglis, Peter N and Mohan, Swetha and Semenec, Lucie and Bialas, Nathan J and Stupay, Rachel M and Chen, Nansheng and Blacque, Oliver E and others},
+  journal={The Journal of cell biology},
+  volume={192},
+  number={6},
+  pages={1023--1041},
+  year={2011},
+  publisher={Rockefeller University Press}
+}
+
+@article{riparbelli2013unique,
+  title={Unique properties of Drosophila spermatocyte primary cilia},
+  author={Riparbelli, Maria Giovanna and Cabrera, Oscar A and Callaini, Giuliano and Megraw, Timothy L},
+  journal={Biology open},
+  volume={2},
+  number={11},
+  pages={1137--1147},
+  year={2013},
+  publisher={The Company of Biologists Ltd}
+}
+
+@article{blachon2008drosophila,
+  title={Drosophila asterless and vertebrate Cep152 Are orthologs essential for centriole duplication},
+  author={Blachon, Stephanie and Gopalakrishnan, Jayachandran and Omori, Yoshihiro and Polyanovsky, Andrey and Church, Allen and Nicastro, Daniela and Malicki, Jarema and Avidor-Reiss, Tomer},
+  journal={Genetics},
+  volume={180},
+  number={4},
+  pages={2081--2094},
+  year={2008},
+  publisher={Genetics Soc America}
+}
+
+@article{mottier2009drosophila,
+  title={Drosophila bld10 is a centriolar protein that regulates centriole, basal body, and motile cilium assembly},
+  author={Mottier-Pavie, Violaine and Megraw, Timothy L},
+  journal={Molecular biology of the cell},
+  volume={20},
+  number={10},
+  pages={2605--2614},
+  year={2009},
+  publisher={Am Soc Cell Biol}
+}
+
+@article{saurya2016drosophila,
+  title={Drosophila Ana1 is required for centrosome assembly and centriole elongation},
+  author={Saurya, Saroj and Roque, H{\'e}lio and Novak, Zsofia A and Wainman, Alan and Aydogan, Mustafa G and Volanakis, Adam and Sieber, Boris and Pinto, David Miguel Susano and Raff, Jordan W},
+  journal={J Cell Sci},
+  volume={129},
+  number={13},
+  pages={2514--2525},
+  year={2016},
+  publisher={The Company of Biologists Ltd}
+}
+
+@article{lobo2017exocyst,
+  title={The exocyst is required for photoreceptor ciliogenesis and retinal development},
+  author={Lobo, Glenn P and Fulmer, Diana and Guo, Lilong and Zuo, Xiaofeng and Dang, Yujing and Kim, Seok-Hyung and Su, Yanhui and George, Kola and Obert, Elisabeth and Fogelgren, Ben and others},
+  journal={Journal of Biological Chemistry},
+  volume={292},
+  number={36},
+  pages={14814--14826},
+  year={2017},
+  publisher={ASBMB}
+}
+
+@article{zuo2009exocyst,
+  title={The exocyst protein Sec10 is necessary for primary ciliogenesis and cystogenesis in vitro},
+  author={Zuo, Xiaofeng and Guo, Wei and Lipschutz, Joshua H},
+  journal={Molecular biology of the cell},
+  volume={20},
+  number={10},
+  pages={2522--2529},
+  year={2009},
+  publisher={Am Soc Cell Biol}
+}
+
+@article{seixas2016arl13b,
+  title={Arl13b and the exocyst interact synergistically in ciliogenesis},
+  author={Seixas, Cec{\'\i}lia and Choi, Soo Young and Polgar, Noemi and Umberger, Nicole L and East, Michael P and Zuo, Xiaofeng and Moreiras, Hugo and Ghossoub, Rania and Benmerah, Alexandre and Kahn, Richard A and others},
+  journal={Molecular biology of the cell},
+  volume={27},
+  number={2},
+  pages={308--320},
+  year={2016},
+  publisher={Am Soc Cell Biol}
+}
+
+@article{conduit2017compartmentalized,
+  title={A compartmentalized phosphoinositide signaling axis at cilia is regulated by INPP5E to maintain cilia and promote Sonic Hedgehog medulloblastoma.},
+  author={Conduit, SE and Ramaswamy, V and Remke, M and Watkins, DN and Wainwright, BJ and Taylor, MD and Mitchell, CA and Dyson, JM},
+  journal={Oncogene},
+  year={2017}
+}
+
+@article{dyson2017inpp5e,
+  title={INPP5E regulates phosphoinositide-dependent cilia transition zone function},
+  author={Dyson, Jennifer M and Conduit, Sarah E and Feeney, Sandra J and Hakim, Sandra and DiTommaso, Tia and Fulcher, Alex J and Sriratana, Absorn and Ramm, Georg and Horan, Kristy A and Gurung, Rajendra and others},
+  journal={J Cell Biol},
+  volume={216},
+  number={1},
+  pages={247--263},
+  year={2017},
+  publisher={Rockefeller University Press}
+}
+
+@article{lee2010drosophila,
+  title={Drosophila TRPN (= NOMPC) channel localizes to the distal end of mechanosensory cilia},
+  author={Lee, Jeongmi and Moon, Sungjin and Cha, Yoonseok and Chung, Yun Doo},
+  journal={PLoS One},
+  volume={5},
+  number={6},
+  pages={e11012},
+  year={2010},
+  publisher={Public Library of Science}
+}
+
+@article{chih2012ciliopathy,
+  title={A ciliopathy complex at the transition zone protects the cilia as a privileged membrane domain},
+  author={Chih, Ben and Liu, Peter and Chinn, Yvonne and Chalouni, Cecile and Komuves, Laszlo G and Hass, Philip E and Sandoval, Wendy and Peterson, Andrew S},
+  journal={Nature cell biology},
+  volume={14},
+  number={1},
+  pages={61},
+  year={2012},
+  publisher={Nature Publishing Group}
+}
+
+@article{vieira2006fapp2,
+  title={FAPP2, cilium formation, and compartmentalization of the apical membrane in polarized Madin--Darby canine kidney (MDCK) cells},
+  author={Vieira, Otilia V and Gaus, Katharina and Verkade, Paul and Fullekrug, Joachim and Vaz, Winchil LC and Simons, Kai},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={103},
+  number={49},
+  pages={18556--18561},
+  year={2006},
+  publisher={National Acad Sciences}
+}
+
+@article{lee2008ift,
+  title={An IFT-A protein is required to delimit functionally distinct zones in mechanosensory cilia},
+  author={Lee, Eugene and Sivan-Loukianova, Elena and Eberl, Daniel F and Kernan, Maurice J},
+  journal={Current Biology},
+  volume={18},
+  number={24},
+  pages={1899--1906},
+  year={2008},
+  publisher={Elsevier}
+}
+
+@article{goshima2007genes,
+  title={Genes required for mitotic spindle assembly in Drosophila S2 cells},
+  author={Goshima, Gohta and Wollman, Roy and Goodwin, Sarah S and Zhang, Nan and Scholey, Jonathan M and Vale, Ronald D and Stuurman, Nico},
+  journal={Science},
+  volume={316},
+  number={5823},
+  pages={417--421},
+  year={2007},
+  publisher={American Association for the Advancement of Science}
+}
+
+@article{blachon2009proximal,
+  title={A proximal centriole-like structure is present in Drosophila spermatids and can serve as a model to study centriole duplication},
+  author={Blachon, Stephanie and Cai, Xuyu and Roberts, Kela A and Yang, Kevin and Polyanovsky, Andrey and Church, Allen and Avidor-Reiss, Tomer},
+  journal={Genetics},
+  volume={182},
+  number={1},
+  pages={133--144},
+  year={2009},
+  publisher={Genetics Soc America}
+}
+
+@article{chang2016cep295,
+  title={CEP295 interacts with microtubules and is required for centriole elongation},
+  author={Chang, Ching-Wen and Hsu, Wen-Bin and Tsai, Jhih-Jie and Tang, Chieh-Ju C and Tang, Tang K},
+  journal={J Cell Sci},
+  volume={129},
+  number={13},
+  pages={2501--2513},
+  year={2016},
+  publisher={The Company of Biologists Ltd}
+}
+@article{fabian2012drosophila,
+  title={Drosophila spermiogenesis: big things come from little packages},
+  author={Fabian, Lacramioara and Brill, Julie A},
+  journal={Spermatogenesis},
+  volume={2},
+  number={3},
+  pages={197--212},
+  year={2012},
+  publisher={Taylor \& Francis}
+}
+
+@article{ronshaugen2002structure,
+  title={Structure and expression patterns of Drosophila TULP and TUSP, members of the tubby-like gene family},
+  author={Ronshaugen, Matthew and McGinnis, Nadine and Inglis, Diane and Chou, Debbie and Zhao, Jack and McGinnis, William},
+  journal={Mechanisms of development},
+  volume={117},
+  number={1},
+  pages={209--215},
+  year={2002},
+  publisher={Elsevier}
+}
+
+@article{satir2010primary,
+  title={The primary cilium at a glance},
+  author={Satir, Peter and Pedersen, Lotte B and Christensen, S{\o}ren T},
+  journal={J Cell Sci},
+  volume={123},
+  number={4},
+  pages={499--503},
+  year={2010},
+  publisher={The Company of Biologists Ltd}
+}
+
+@article{bloodgood2010sensory,
+  title={Sensory reception is an attribute of both primary cilia and motile cilia},
+  author={Bloodgood, Robert A},
+  journal={J Cell Sci},
+  volume={123},
+  number={4},
+  pages={505--509},
+  year={2010},
+  publisher={The Company of Biologists Ltd}
+}
+
+@article{riparbelli2012assembly,
+  title={Assembly and persistence of primary cilia in dividing Drosophila spermatocytes},
+  author={Riparbelli, Maria Giovanna and Callaini, Giuliano and Megraw, Timothy L},
+  journal={Developmental cell},
+  volume={23},
+  number={2},
+  pages={425--432},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@article{gottardo2013cilium,
+  title={The cilium-like region of the Drosophila spermatocyte: an emerging flagellum?},
+  author={Gottardo, Marco and Callaini, Giuliano and Riparbelli, Maria Giovanna},
+  journal={J Cell Sci},
+  volume={126},
+  number={23},
+  pages={5441--5452},
+  year={2013},
+  publisher={The Company of Biologists Ltd}
+}
+
+@article{goshima2007genes,
+  title={Genes required for mitotic spindle assembly in Drosophila S2 cells},
+  author={Goshima, Gohta and Wollman, Roy and Goodwin, Sarah S and Zhang, Nan and Scholey, Jonathan M and Vale, Ronald D and Stuurman, Nico},
+  journal={Science},
+  volume={316},
+  number={5823},
+  pages={417--421},
+  year={2007},
+  publisher={American Association for the Advancement of Science}
+}
+
+@article{blachon2009proximal,
+  title={A proximal centriole-like structure is present in Drosophila spermatids and can serve as a model to study centriole duplication},
+  author={Blachon, Stephanie and Cai, Xuyu and Roberts, Kela A and Yang, Kevin and Polyanovsky, Andrey and Church, Allen and Avidor-Reiss, Tomer},
+  journal={Genetics},
+  volume={182},
+  number={1},
+  pages={133--144},
+  year={2009},
+  publisher={Genetics Soc America}
+}
+
+@article{xu2014pipkigamma,
+  title={PIPKI$\gamma$ targets to the centrosome and restrains centriole duplication},
+  author={Xu, Qingwen and Zhang, Yuxia and Xiong, Xunhao and Huang, Yan and Salisbury, Jeffery L and Hu, Jinghua and Ling, Kun},
+  journal={J Cell Sci},
+  volume={127},
+  number={6},
+  pages={1293--1305},
+  year={2014},
+  publisher={The Company of Biologists Ltd}
+}
+
+@article{balla2013phosphoinositides,
+  title={Phosphoinositides: tiny lipids with giant impact on cell regulation},
+  author={Balla, Tamas},
+  journal={Physiological reviews},
+  volume={93},
+  number={3},
+  pages={1019--1137},
+  year={2013},
+  publisher={Am Physiological Soc}
+}
+
+@article{hasegawa2012phosphatidylinositol,
+  title={Phosphatidylinositol 4-phosphate 5-kinase is indispensable for mouse spermatogenesis},
+  author={Hasegawa, Hiroshi and Noguchi, Junko and Yamashita, Misuzu and Okada, Risa and Sugimoto, Rika and Furuya, Momoko and Unoki, Takamitsu and Funakoshi, Yuji and Baba, Tadashi and Kanaho, Yasunori},
+  journal={Biology of reproduction},
+  volume={86},
+  number={5},
+  year={2012},
+  publisher={Oxford University Press}
+}
+
+@article{valente2014primary,
+  title={Primary cilia in neurodevelopmental disorders},
+  author={Valente, Enza Maria and Rosti, Rasim O and Gibbs, Elizabeth and Gleeson, Joseph G},
+  journal={Nature Reviews Neurology},
+  volume={10},
+  number={1},
+  pages={27},
+  year={2014},
+  publisher={Nature Publishing Group}
+}
+
+@article{hammarsjo2017novel,
+  title={Novel KIAA0753 mutations extend the phenotype of skeletal ciliopathies},
+  author={Hammarsj{\"o}, A and Wang, Z and Vaz, R and Taylan, F and Sedghi, M and Girisha, KM and Chitayat, D and Neethukrishna, K and Shannon, P and Godoy, R and others},
+  journal={Scientific Reports},
+  volume={7},
+  number={1},
+  pages={15585},
+  year={2017},
+  publisher={Nature Publishing Group}
+}
+
+@article{waters2011ciliopathies,
+  title={Ciliopathies: an expanding disease spectrum},
+  author={Waters, Aoife M and Beales, Philip L},
+  journal={Pediatric Nephrology},
+  volume={26},
+  number={7},
+  pages={1039--1056},
+  year={2011},
+  publisher={Springer}
+}
+
+@article{inaba2016sperm,
+  title={Sperm dysfunction and ciliopathy},
+  author={Inaba, Kazuo and Mizuno, Katsutoshi},
+  journal={Reproductive medicine and biology},
+  volume={15},
+  number={2},
+  pages={77--94},
+  year={2016},
+  publisher={Wiley Online Library}
+}
+
+@article{reiter2012base,
+  title={The base of the cilium: roles for transition fibres and the transition zone in ciliary formation, maintenance and compartmentalization},
+  author={Reiter, Jeremy F and Blacque, Oliver E and Leroux, Michel R},
+  journal={EMBO reports},
+  volume={13},
+  number={7},
+  pages={608--618},
+  year={2012},
+  publisher={EMBO Press}
+}
+
+@article{aubusson2015transition,
+  title={Transition zone: the sequential assembly of its components parallels its dual role in basal body anchoring and ciliary function},
+  author={Aubusson-Fleury, A and Lemullois, M and Bengueddach, H and Abdallah, S and Shi, L and Cohen, J and Tassin, AM and Koll, F},
+  journal={Cilia},
+  volume={4},
+  number={1},
+  pages={P26},
+  year={2015},
+  publisher={BioMed Central}
+}
+
+@article{serwas2017centrioles,
+  title={Centrioles initiate cilia assembly but are dispensable for maturation and maintenance in C. elegans},
+  author={Serwas, Daniel and Su, Tiffany Y and Roessler, Max and Wang, Shaohe and Dammermann, Alexander},
+  journal={J Cell Biol},
+  volume={216},
+  number={6},
+  pages={1659--1671},
+  year={2017},
+  publisher={Rockefeller University Press}
+}
