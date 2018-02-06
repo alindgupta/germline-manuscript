@@ -58,7 +58,7 @@ stripchart(apply(df, 2, as.list),
 title("Cep290 and Ana1 lengths (late G2 phase)", font.main=1, cex.main=1.3, line=0.7)
 title(ylab=expression(paste("Length (",italic("μ"), "m)", sep="")), line=2.2)
 
-tlab=c(1.6, 3.7)+0.3
+tlab=c(1.6, 3.7)+0.2
 
 axis(2, at=seq(0.6, 1.8, 0.2), labels=TRUE, col.ticks=1, lwd=1, lwd.ticks=1)
 
@@ -76,10 +76,10 @@ segments(xat[1], df[,1], xat[2], df[,2], lwd=0.1)
 segments(xat[3], df[,3], xat[4], df[,4], lwd=0.1)
 
 
-lines(c(xat[1], xat[3]), c(yat, yat))
-lines(c(xat[1], xat[1]), c(yat-offset, yat))
-lines(c(xat[3], xat[3]), c(yat-offset, (yat)))
-text((xat[1] + xat[3])/2, yat+2*offset, expression(italic('N.S.')), cex=0.8)
+#lines(c(xat[1], xat[3]), c(yat, yat))
+#lines(c(xat[1], xat[1]), c(yat-offset, yat))
+#lines(c(xat[3], xat[3]), c(yat-offset, (yat)))
+#text((xat[1] + xat[3])/2, yat+2*offset, expression(italic('N.S.')), cex=0.8)
 
 lines(c(xat[1]-0.25, xat[2]+0.25), c(0.52, 0.52), xpd=TRUE)
 lines(c(xat[3]-0.25, xat[4]+0.25), c(0.52, 0.52), xpd=TRUE)

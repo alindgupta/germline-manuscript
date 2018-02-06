@@ -58,7 +58,7 @@ stripchart(apply(df, 2, as.list),
            at=xat,
            jitter=0.05)
 
-title("Cep290 and Ana1 lengths in spermatocytes\n (late G2 phase)", font.main=1, cex.main=1.3, line=0.2)
+title("Cep290 and Ana1 lengths\n (late G2 phase)", font.main=1, cex.main=1.3, line=0.2)
 title(ylab=expression(paste("Length (",italic("μ"), "m)", sep="")), line=2.2)
 
 axis(2, at=seq(0.6, 2, 0.2), labels=TRUE, col.ticks=1, lwd=1)

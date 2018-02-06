@@ -58,7 +58,7 @@ stripchart(apply(df, 2, as.list),
 title("Cep290 and Ana1 lengths (early G2 phase)", font.main=1, cex.main=1.3, line=0.7)
 title(ylab=expression(paste("Length (",italic("μ"), "m)", sep="")), line=2.2)
 
-tlab=c(1.6, 3.7)+0.3
+tlab=c(1.6, 3.7)+0.2
 
 axis(2, at=seq(0.3, 0.6, 0.1), labels=TRUE, col.ticks=1, lwd=1, lwd.ticks=1)
 
