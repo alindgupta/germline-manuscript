@@ -7,7 +7,7 @@
 *.blg
 *.pdf
 *~
-*#
+*#*
 *.ai
 *.png
 .Rhistory
