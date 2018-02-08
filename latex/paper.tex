@@ -1,5 +1,5 @@
 \documentclass[12pt, twoside, letterpaper]{article}
-\usepackage[margin=0.7in]{geometry}
+\usepackage[margin=0.6in]{geometry}
 \usepackage[parfill]{parskip}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -29,8 +29,8 @@
 
 
 \title{\bfseries\large Phosphatidylinositol 4,5-bisphosphate regulates cilium transition zone maturation in Drosophila}
-\author[1,2]{Alind Gupta}
-\author[1,2]{Julie A. Brill}
+\author[1,2]{Alind Gupta \thanks{\url{alind.gupta@mail.utoronto.ca}}}
+\author[1,2]{Julie A. Brill \thanks{\url{julie.brill@sickkids.ca} (Corresponding author)}}
 \affil[1]{Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada}
 \affil[2]{Program in Cell Biology, Hospital for Sick Children, Toronto, ON M5G 1X8, Canada}
 \date{}
@@ -123,7 +123,6 @@ ciliopathy-associated \textit{EXOC8} gene encoding the human Exo84
 decouples TZ hyperelongation from loss of cilium-membrane contacts.
 Our results suggest that the plasma membrane lipid \PIP{} regulates TZ length,
 maturation and function, acting to support ciliogenesis.
-
 
 \section{Results}
 
@@ -256,28 +255,47 @@ membrane-cilium association are genetically separable phenotypes.
 
 \section{Discussion}
 
-In this study, we show that the lipid \PIP{} is essential for proper
-transition zone maturation in the Drosophila male germline.
-Reduction of cellular \PIP{} by expression of the bacterial PIP
-phosphatase SigD or inactivation of the type I PIP kinase Skittles
-causes developing TZs to elongate excessively.
+Cilia are essential for proper human development, and their disruption
+can cause genetic disorders which display severity ranging from congenital
+lethality to adult onset.
+A large number of ciliopathies are associated with genes that encode for
+proteins that function at the cilium transition zone (TZ).
+Often, a single gene is linked to multiple ciliopathies with variable phenotypes
+and severities.
+For example, the conserved TZ protein CEP290 is linked to at least six different
+cilium-associated disorders, suggesting that many of these encode for mutant proteins
+that are hypomorphic in nature whose function may
+be affected by modifier mutations and genetic environment.
+Animal models with mild perturbations of TZ function may therefore provide
+insight on intermediate phenotypes associated with human disease.
+Here, we found that reduced levels of the membrane lipid \PIP{},
+which is known to be enriched at the base of cilia,
+affects TZ maturation, but not assembly,
+leading to hyperelongated TZs that show signs of functional defects, and
+may represent one such modifier for TZ function.
 
-We had previously shown that reduction of \PIP{} by SigD expression
-affected flagellar biogenesis and axoneme structure
-\citep{wei2008depletion}.
-We also showed aberrant ``comet-shaped'' localization of Unc that
-failed to assemble TZ-associated puncta in some cases.
-Here, we show that this occurs prior to meiosis,
-is not an artefact due to cytokinesis defects
-and do not represent an inability of the axoneme to grow.
+In the Drosophila male germline, TZ maturation follows the initial
+assembly of TZ proteins on the nascent basal body in the cytoplasm
+followed by anchoring at the plasma membrane.
+TZ maturation involves microtubule rearrangements and TZ elongation,
+which leads to cilium-membrane attachment.
+Loss of \PIP{}, a membrane lipid largely at the plasma membrane,
+disrupts this process.
+It causes excessive lengthening of the TZ,
+and disrupts membrane-cilium connections.
 
 The type I phosphatidylinositol 4-phosphate kinase (PIPKI) Skittles
 suppresses TZ elongation in \sigd{} cells in a cilium-autonomous
 manner.
 We also found that cells mutant for \textit{sktl} contained hyperelongated
 TZs similar to SigD-expressing cells.
-Sktl also localizes to centrioles.
-
+Sktl also localizes to centrioles,
+and our results suggest that Skittles act locally at cilia to
+regulate TZ length.
+The protein CEP135, human ortholog of the Drosophila protein
+Asterless, has been show to bind PIPKI$\gamma$ in cell lines.
+PIPKI$\gamma$ is linked to lethal congenital contractural syndrome
+type 3 (LCCS3).
 It has previously been suggested that LCCS3 might represent a ciliopathy.
 PIPKI$\gamma$ is linked to LCCS3 with many features reminiscent
 of ciliopathies, such as micrognathia, and a role for the LCCS1 protein
@@ -289,12 +307,17 @@ and PIPKI$\alpha$ and PIPKI$\beta$ are important for fertility in mice
 Members of the exocyst complex, such as Sec10 and Sec6, have been shown
 to be important for cilium formation in cultured cell lines and zebrafish
 \citep{zuo2009exocyst, lobo2017exocyst, seixas2016arl13b}.
-A mutation in \textit{EXOC8} has been linked
-to Joubert syndrome \citep{dixon2012exome}.
 The exocyst is known to bind to \PIP{}, and we previously described that
 the \textit{onr} allele of Drosophila \textit{Exo84} phenocopied
 male germline defects observed in \sigd{}.
-
+In this paper, we show that the \textit{onr} allele of the Drosophila Exo84
+phenocopies the loss of cilium-membrane contacts in \sigd{},
+but not TZ hyperelongation.
+Proper TZ function is required for membrane tethering, as \textit{dila; cby}
+mutants, which contain abnormal TZs also show cytoplasmic cilia similar to
+\sigd{}.
+Our results suggest that the exocyst is required after the initial stages
+of TZ assembly and maturation for TZ function.
 
 
 \section{Methods}
@@ -351,10 +374,28 @@ or Nikon A1R scanning confocal microscope (SickKids imaging facility).
 
 \subsection{Statistical methods}
 Statistical analysis and graphing was performed using R.
+A Gaussian jitter was applied when plotting
+results in Figures 1 and 2,
+but raw data was used for all analysis.
 Statistical tests for ``absence of phenotype'' were computed under a
-hypothesis assuming binomial likelihood.
+hypothesis assuming binomial likelihood (i.e. assuming a fixed probability of the
+phenotype occurring).
 All $t$-tests were unpaired and two-sided.
-A significance level of 0.01 was fixed \textit{a priori} for all analysis.
+A significance level of 0.01 was fixed \textit{a priori} for all classical analysis.
+Bayesian analysis was performed in Stan.
+All raw data and code for analysis and plotting can be found online
+at \url{http://www.github.com/alindgupta/germline-paper/}.
+
+\subsection{Phylogenetic analysis}
+Candidate orthologs of \textit{sktl} or \textit{pip5k59b} were queried from Inparanoid and FlyBase.
+Poorly annotated protein sequences were manually curated to ensure
+these represented type I phosphatidylinositol phosphate
+kinases using reciprocal BLAST search.
+Phylogeny.fr (\url{http://www.phylogeny.fr}) was used for
+phylogenetic reconstruction with T-Coffee for multiple alignment
+and MrBayes for tree construction.
+The output was converted to a vector image in Illustrator
+and colours were added for the purposes of illustration.
 
 \section{Author contributions}
 A.G. and J.A.B. conceived the project.
@@ -363,7 +404,8 @@ J.A.B. supervised the project.
 
 
 \section{Acknowledgements}
-We thank Brian Ciruna for input on results.
+We thank Brian Ciruna for his input on the project
+and B. Durand for graciously providing unpublished fly stocks.
 
 \bibliography{bibttc}
 
