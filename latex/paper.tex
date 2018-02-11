@@ -12,9 +12,8 @@
 
 \bibliographystyle{unsrtapalike}
 
-
 % title font size
-\titleformat*{\section}{\normalsize\bfseries}
+\titleformat*{\section}{\large\bfseries}
 \titleformat*{\subsection}{\normalsize\bfseries}
 
 % line spacing
@@ -22,23 +21,23 @@
 
 % new commands
 \newcommand{\PIP}{PIP\textsubscript{2}}
-\newcommand{\sigd}{$\beta$\textit{2tub}-SigD}
+\newcommand{\sigd}{$\beta$\textit{2t}-SigD}
 \newcommand{\sktl}{\textit{sktl}}
 \renewcommand*{\Affilfont}{\footnotesize \normalfont}
 \renewcommand*{\Authfont}{\normalsize}
 
-
-\title{\bfseries\large Phosphatidylinositol 4,5-bisphosphate regulates cilium transition zone maturation in Drosophila}
+\title{\bfseries\large Phosphatidylinositol 4,5-bisphosphate regulates cilium transition zone maturation in \textit{Drosophila melanogaster}}
 \author[1,2]{Alind Gupta \thanks{\url{alind.gupta@mail.utoronto.ca}}}
 \author[1,2]{Julie A. Brill \thanks{\url{julie.brill@sickkids.ca} (Corresponding author)}}
-\affil[1]{Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada}
-\affil[2]{Program in Cell Biology, Hospital for Sick Children, Toronto, ON M5G 1X8, Canada}
+\affil[1]{\small Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada}
+\affil[2]{\small Program in Cell Biology, Hospital for Sick Children, Toronto, ON M5G 1X8, Canada}
 \date{}
 
-
 \begin{document}
+
 \maketitle
 \raggedright
+
 \begin{abstract}
   \vspace*{-0.7em}
   Cilia are sensory organelles that are important for human development
@@ -52,16 +51,17 @@
   of TZs in the male \textit{Drosophila melanogaster} germline.
   Reduction of cellular \PIP{} levels by expression of the
   \textit{Salmonella} phosphoinositide phosphatase SigD or mutation of
-  the type I phosphatidylinositol phosphate kinase Skittles (Sktl)
+  the type I phosphatidylinositol phosphate kinase (PIPKI) Skittles (Sktl)
   induces hyperelongation of TZs following their docking at the plasma
   membrane.
-  We provide evidence showing that these hyperelongated TZs are functionally
-  defective, and that the Exo84 mutant \textit{onion rings} decouples the
-  transition zone hyperelongation from the role for \PIP{} in cilium-membrane
+  We provide evidence that these hyperelongated TZs are functionally
+  defective, and that the Exo84 mutant \textit{onion rings} decouples
+  TZ hyperelongation from the role for \PIP{} in cilium-membrane
   tethering.
   Our observations reveals a requirement for \PIP{} at the base of cilia
   in regulating TZ length and function.
 \end{abstract}
+
 
 \section{Introduction}
 Cilia are sensory organelles present on almost all cells in the human body
@@ -71,25 +71,24 @@ also function as motile propellers in certain cells
 \citep{bloodgood2010sensory}.
 Consistent with their pervasiveness and importance in cell signalling,
 defects in cilium formation are associated with various genetic disorders
-known collectively as ciliopathies, which can manifest as
-neurological disorders \citep{valente2014primary},
+known collectively as ciliopathies, which can display
+neurological defects \citep{valente2014primary},
 skeletal abnormalities \citep{hammarsjo2017novel, waters2011ciliopathies}
 and infertility \citep{inaba2016sperm}.
 
 A large number of ciliopathies are linked to mutations in proteins that
 localize to the cilium transition zone (referred to herein as TZ).
-The TZ is the proximal-most compartment of the cilium which
+The TZ is the proximal-most region of the cilium and
 acts as a diffusion barrier that regulates the
-bi-directional transport of protein and lipid cargo at the base of the cilium,
-and is essential for cilium formation and function in cell signalling.
+bi-directional transport of protein and lipid cargo at the base of the cilium.
+The TZ is essential for cilium formation (ciliogenesis) and cilium-associated
+signalling.
 The conserved TZ protein CEP290, for example, is mutated in at least
-five distinct ciliopathies, and is essential for cilium formation in both humans
-and Drosophila.
-Although the composition of TZs is well understood, processes underlying
-transition zone maturation and cell membrane anchoring are not as well-studied.
-In particular, why mutations in the same TZ protein can give rise to a plethora
-of phenotypic outputs is less understood, and may point at modifier mutations
-or mutations that are not as severe as to entirely abolish ciliogenesis.
+five different ciliopathies, and is essential for cilium formation in both humans
+and Drosophila \citep{basiri2014migrating}.
+Although the protein composition of TZs has been investigated in various
+studies ranging from single gene analysis to proteomics,
+processes underlying TZ maturation are not as well-studied.
 
 In the Drosophila male germline, nascent TZs first assemble on basal bodies
 during early pre-meiotic G2 phase (spermatocytes), anchor directly to the plasma membrane.
@@ -105,17 +104,16 @@ and the TZ.
 TZ maturation has been described in
 \textit{Paramecium} \citep{aubusson2015transition}
 \textit{Caenorrhabditis elegans} \citep{serwas2017centrioles} and
-\textit{D. melanogaster} \citep{gottardo2013cilium}
-and involves TZ elongation.
+\textit{Drosophila melanogaster} \citep{gottardo2013cilium}
+and is most readily observed by an increase in TZ length from nascent to mature.
 Possibly, this is similar to the initial steps of TZ assembly and reorganization
 in well-studied vertebrate cilia.
 
 Here, we show that the lipid phosphatidylinositol 4,5-bisphosphate (\PIP{})
-is essential for proper TZ maturation in developing \textit{Drosophila melanogaster}
-male germ cells.
+is essential for proper TZ maturation in developing male germ cells in \textit{D. melanogaster}.
 Reduction of cellular \PIP{} by expression of the bacterial PIP phosphatase SigD
 or by inactivation of the PIP 5-kinase Skittles (Sktl) that localizes to cilia
-induces longer than normal TZs.
+induces longer than normal TZs without affecting TZ assembly.
 These hyperelongated TZs show hallmarks of aberrant function similar to those
 found in previously studied TZ mutants, including loss of cilium-membrane associations.
 We also find that the \textit{onion rings} allele of the
@@ -124,8 +122,8 @@ decouples TZ hyperelongation from loss of cilium-membrane contacts.
 Our results suggest that the plasma membrane lipid \PIP{} regulates TZ length,
 maturation and function, acting to support ciliogenesis.
 
-\section{Results}
 
+\section{Results}
 \subsection{\PIP{} is essential for transition zone maturation}
 To investigate whether reduction of cellular \PIP{} affects ciliogenesis in the
 Drosophila male germline,
@@ -136,7 +134,7 @@ which is uniquely expressed in spermatocytes
 We previously showed that expression of this construct
 induced male sterility due in part to defects in flagellar biosynthesis \citep{wei2008depletion}.
 We examined the localization of fluorescently-labelled centriolar/basal body protein
-Ana1 (Cep295) \citep{goshima2007genes, blachon2009proximal}
+Ana1 (CEP295 homolog) \citep{goshima2007genes, blachon2009proximal}
 and the TZ protein Cep290 \citep{basiri2014migrating}
 in wild-type control and \sigd{} spermatocytes.
 As shown in Figure 1A, nascent TZs marked with Cep290-GFP assemble normally in \sigd{} cells
@@ -148,12 +146,11 @@ all TZ markers examined showed hyperelongation, including
 acetylated tubulin \citep{gottardo2013cilium},
 Chibby \citep{enjolras2012drosophila} and
 MKS \citep{slaats2015mks1, vieillard2016transition} proteins (Figure 1).
-Hyperelongated transition zones persisted through meiosis.
+Hyperelongated TZs persisted through meiosis.
 Despite TZ hyperlongation, however, axonemes were able to elongate post-meiosis (Figure 1).
 As we showed previously, the ultrastructure of these axonemes was frequently aberrant,
 either lacking symmetry completely or containing triplet microtubules instead of doublets
 \citep{wei2008depletion}.
-
 
 \subsection{The type I PIP kinase Skittles localizes to centrioles and regulates TZ length}
 Although numerous studies have shown that \PIP{} is the major substrate for SigD
@@ -164,7 +161,7 @@ SigD can dephosphorylate other PIPs \textit{in vitro}
 To address whether TZ hyperelongation observed in \sigd{} represented
 a physiologically relevant phenotype in response to decreased \PIP{},
 we attempted to rescue it by
-co-expressing fluorescently-tagged full-length Skittles (Sktl) with SigD
+co-expressing fluorescently-tagged full-length Sktl (Sktl) with SigD
 under the same promoter.
 We found that Sktl expression was able to suppress TZ elongation in a cilium-autonomous
 manner (Figure 2).
@@ -174,17 +171,18 @@ marked with Unc-GFP, a ciliary marker \citep{baker2004mechanosensory}.
 Since Sktl expression lead to cilium-autonomous rescue,
 we investigated whether Sktl could localize to centrioles or cilia in the Drosophila germline.
 Similar to the human PIPKI$\gamma$ isoform \citep{xu2014pipkigamma},
-we found that Skittles localizes to basal bodies in the Drosophila male germline.
-As shown in Figure 2, Drosophila PIP5Ks arose from the recent duplication of
-the ancestral PIP5K gene, and are not orthologous to specific vertebrate PIP5K isoforms.
-Skittles has diverged more than the paralogous PIP5K59B gene, and seems
+we found that Sktl localizes to basal bodies in the Drosophila male germline.
+As shown in Figure 2, Drosophila PIPKIs arose from the recent duplication of
+the ancestral PIPKI gene, and are not orthologous to specific vertebrate PIPKI isoforms.
+Sktl has diverged more than the paralogous PIP5K59B gene, and seems
 to be functionally related to PIPKI$\gamma$ in its roles at cilia.
 However, unlike the human PIPKI$\gamma$, which functions to license TZ assembly
 by promoting CP110 uncapping from basal bodies \citep{xu2016phosphatidylinositol},
-our results suggest that Skittles functions in
+our results suggest that Sktl functions in
 regulating TZ length in the Drosophila male germline
 but is dispensable for its assembly.
-The localization of Cp110 is unaffected in \sigd{} (supplementary figure 1).
+Cp110 is dispensable for cilium formation in Drosophila \citep{franz2013cp110}
+and we found its localization to be unaffected in \sigd{} (supplementary figure 1).
 
 \subsection{Hyperelongated transition zones show signs of functional defects}
 While shorter spermatocyte TZs have been observed in Drosophila mutants of TZ proteins
@@ -254,7 +252,6 @@ membrane-cilium association are genetically separable phenotypes.
 
 
 \section{Discussion}
-
 Cilia are essential for proper human development, and their disruption
 can cause genetic disorders which display severity ranging from congenital
 lethality to adult onset.
@@ -283,6 +280,7 @@ Loss of \PIP{}, a membrane lipid largely at the plasma membrane,
 disrupts this process.
 It causes excessive lengthening of the TZ,
 and disrupts membrane-cilium connections.
+Thus, intermediate steps during TZ maturation require \PIP{}.
 
 The type I phosphatidylinositol 4-phosphate kinase (PIPKI) Skittles
 suppresses TZ elongation in \sigd{} cells in a cilium-autonomous
@@ -324,11 +322,15 @@ of TZ assembly and maturation for TZ function.
 \subsection{Transgenic flies}
 Drosophila stocks were cultured on cornmeal molasses agar medium at 25$^{\circ}$C
 and 50\% humidity.
-Stocks expressing $\beta$\textit{2tub}::SigD and $\beta$\textit{2tub}::YFP-Sktl
+Stocks expressing $\beta$\textit{2tubulin}::\textit{Styp}\textbackslash{SigD} (chromosome \textit{3})
+and $\beta$\textit{2tub}::YFP-Sktl (chromosome \textit{2})
 were described previously \citep{wei2008depletion, fabian2010phosphatidylinositol}.
-Ana1-tdTomato (chromosome 2) and Cep290-GFP (chromosome 3) were provided
+$\beta$\textit{2tub}::mCherry-Sktl was made as in \citep{wei2008depletion},
+and a \textit{P}-element insertion on chromosome \textit{2} was used for rescue using the low-level
+expression vector \textit{tv3} \citep{wong2005pip2}.
+Ana1-tdTomato (chromosome \textit{2}) and Cep290-GFP (chromosome \textit{3}) were provided
 by T. Avidor-Reiss \citep{basiri2014migrating}.
-Unc-GFP was originally provided by M. Kernan \citep{baker2004mechanosensory}.
+\textit{Sp}/\textit{CyO}; Unc-GFP was originally provided by M. Kernan \citep{baker2004mechanosensory}.
 Stocks expressing GFP-tagged Chibby, B9d1, B9d2, Cc2d2a and Mks1 were generously
 provided by B. Durand \citep{enjolras2012drosophila, vieillard2016transition}.
 The \textit{onr} mutant was described previously \citep{giansanti2015exocyst}.
@@ -339,12 +341,14 @@ A. Guichet \citep{gervais2008pip5k}.
 \subsection{Antibodies}
 The following primary antibodies were used for immunofluorescence
 at the indicated concentrations - 
-rabbit $\alpha$-Tulp (gift from W. McGinnis \citep{ronshaugen2002structure}), 1:500; 
-chicken $\alpha$-GFP IgY (abcam) 1:1000;
-rat $\alpha$-RFP IgG (5F8, ChromoTek), 1:1000;
-rabbit $\alpha$-Sktl (courtesy of P. Raghu), 1:500;
+rabbit anti-Tulp (gift from W. McGinnis \citep{ronshaugen2002structure}), 1:500; 
+chicken anti-GFP IgY (abcam) 1:1000;
+rat anti-RFP IgG (5F8, ChromoTek), 1:1000;
+rabbit anti-Sktl (courtesy of P. Raghu), 1:500;
+rabbit anti-\textit{d}Sec6 (courtesy of U. Tepass), 1:500;
+mouse anti-acetylated $\alpha$-tubulin 6-11-B (Sigma-Aldrich), 1:1000.
 Secondary antibodies were Alexa 488- and Alexa 568-conjugated
-$\alpha$-mouse, $\alpha$-rabbit and $\alpha$-chicken
+anti-mouse, anti-rabbit and anti-chicken
 IgG (Molecular Probes) at 1:1000.
 DAPI was used to label chromatin at 1:1000.
 
@@ -358,54 +362,73 @@ squashed under a glass coverslip using Kimwipes.
 The edges of the coverslip were sealed with nail polish
 and the specimen was visualized immediately using a fluorescence microscope.
 
+For Taxol treatments, testes from larvae or pupae expressing
+Ana1-tdTomato; Cep290-GFP were
+dissected into Shields and Sang M3 medium (Sigma-Aldrich) supplemented
+with a predefined
+concentration of Taxol and incubated overnight in a humidified sterile
+chamber in the dark at room temperature. They were then squashed
+in PBS and visualized immediately.
+
+For CellMask staining, cells were spilled from testes in M3 medium onto
+a sterilized glass-bottom dish that was pre-treated with sterile polylysine solution
+to enable cells to adhere.
+CellMask Deep Red (Invitrogen) solution (20 $\mu$g/mL) was added to the medium dropwise
+immediately before visualization under a confocal microscope.
+
 For immunochemistry, testes were dissected in PBS,
-transferred to a polylysine-coated gladd slide in a drop of PBS,
+transferred to a polylysine-coated glass slide in a drop of PBS,
 ruptured with a needle, squashed and frozen in liquid nitrogen for 5 minutes.
-The slides were transferred to ice-cold methanol for 5-10 minutes.
-For staining with the $\alpha$-skittles antibody, pre-fixation in methanol
+The slides were transferred to ice-cold methanol for 5-10 minutes for pre-fixation.
+For staining with the anti-Sktl antibody, this pre-fixation step
 was omitted to preserve cellular membranes.
 Samples were fixed in 4\% paraformaldehyde in PBS,
 permeabilized and blocked in PBS with 0.1\% Triton-X and 0.3\% bovine
 serum albumin and incubated with primary antibodies overnight at 4$^{\circ}$C.
 followed by three 5-minute washes with PBS and 1 hour incubation
 with secondary antibodies and three 5-minute washes with PBS.
-Samples were mounted in Dako (Agilent) and imaged with Leica widefield microscope
+Samples were mounted in Dako (Agilent) and imaged with
+a Leica widefield microscope
 or Nikon A1R scanning confocal microscope (SickKids imaging facility).
 
 \subsection{Statistical methods}
 Statistical analysis and graphing was performed using R.
 A Gaussian jitter was applied when plotting
-results in Figures 1 and 2,
+results in Figures 1 and 2 for clearer visualization of trends,
 but raw data was used for all analysis.
 Statistical tests for ``absence of phenotype'' were computed under a
 hypothesis assuming binomial likelihood (i.e. assuming a fixed probability of the
 phenotype occurring).
 All $t$-tests were unpaired and two-sided.
 A significance level of 0.01 was fixed \textit{a priori} for all classical analysis.
-Bayesian analysis was performed in Stan.
 All raw data and code for analysis and plotting can be found online
 at \url{http://www.github.com/alindgupta/germline-paper/}.
 
 \subsection{Phylogenetic analysis}
-Candidate orthologs of \textit{sktl} or \textit{pip5k59b} were queried from Inparanoid and FlyBase.
-Poorly annotated protein sequences were manually curated to ensure
-these represented type I phosphatidylinositol phosphate
+Candidate orthologs of Skittles or PIP5K9B were queried
+from Inparanoid and FlyBase (version 8.0).
+Poorly annotated protein sequences were confirmed
+to encode type I phosphatidylinositol phosphate
 kinases using reciprocal BLAST search.
 Phylogeny.fr (\url{http://www.phylogeny.fr}) was used for
 phylogenetic reconstruction with T-Coffee for multiple alignment
 and MrBayes for tree construction.
 The output was converted to a vector image in Illustrator
-and colours were added for the purposes of illustration.
+and colours were added for the purpose of illustration.
+
 
 \section{Author contributions}
 A.G. and J.A.B. conceived the project.
-A.G. performed all the experiments and wrote the manuscript.
+A.G. performed all the experiments and analysis, and wrote the manuscript.
 J.A.B. supervised the project.
 
 
 \section{Acknowledgements}
 We thank Brian Ciruna for his input on the project
-and B. Durand for graciously providing unpublished fly stocks.
+and Bénédicte Durand for providing unpublished fly stocks.
+This work was supported by a grant from the Canadian Institute for Health Research
+(CIHR) to J.A.B.
+
 
 \bibliography{bibttc}
 
