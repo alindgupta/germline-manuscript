@@ -1,4 +1,4 @@
-#png(filename="cepgerm.png", width=6.5, height=6,units="in", res=600)
+png(filename="rescuelength.png", width=7, height=6,units="in", res=600)
 
 # import data
 df <- read.csv('quantification.csv', header=TRUE)
@@ -14,16 +14,16 @@ df <- addNoise(df)
 
 library(RColorBrewer)
 
-cols <- brewer.pal(9,"Set1")[c(1,2,3)]
+cols <- brewer.pal(9,"Set1")[c(9,4,5)]
 
 par(bty="n",
-    mar=c(3, 4, 3, 3),  # plot margins b-l-t-r
+    mar=c(2, 4, 3, 0),  # plot margins b-l-t-r
     las=1,              # horizontal labels
     tcl=-.25,           # tick length
     font.main=1,        # plain font
     mgp=c(2.5, 0.5, 0),  # axis spacings
-    cex.lab=1.1,
-    cex.axis=1.1,
+    cex.lab=1.6,
+    cex.axis=1.4,
     ps=12
 )
 
@@ -58,8 +58,8 @@ stripchart(apply(df, 2, as.list),
            at=xat,
            jitter=0.05)
 
-title("Cep290 and Ana1 lengths\n (late G2 phase)", font.main=1, cex.main=1.3, line=0.2)
-title(ylab=expression(paste("Length (",italic("μ"), "m)", sep="")), line=2.2)
+title("Cep290 and Ana1 lengths\n (late G2 phase)", font.main=1, cex.main=1.6, line=0)
+title(ylab=expression(paste("Length (", "μ", "m)", sep="")), line=2.2)
 
 axis(2, at=seq(0.6, 2, 0.2), labels=TRUE, col.ticks=1, lwd=1)
 axis(1, labels=c("Cep290-GFP", "Ana1-tdTomato"), at=c(2, 0.92*(xat[5]+xat[6])/2), lwd.ticks=0, lty=0, line=-0.8)
@@ -67,29 +67,29 @@ axis(1, at=c(0, ((xat[3] + xat[4])/2)), labels=FALSE, tck=-0.05, col=0, lty=0)
 #box(bty='L')
 
 temp.labels = c("Control", "SigD", "SigD + Sktl")
-legend("topright", cex=0.9, col=cols, lty=1, lwd=2, temp.labels, bty="n")
+legend("topright", cex=1.3, col=cols, lty=1, lwd=2, temp.labels, bty="n")
 
 offset <- 0.015
 yat <- 0.9
 lines(c(xat[4], xat[5]), c(yat, yat))
 lines(c(xat[4], xat[4]), c(yat+offset, yat))
 lines(c(xat[5], xat[5]), c(yat+offset, (yat)))
-text((xat[4] + xat[5])/2, yat-2*offset, expression(italic('N.S.')), cex=0.8)
+text((xat[4] + xat[5])/2, yat-3*offset, expression(italic('N.S.')), cex=1)
 
 offset <- 0.015
 yat <- 0.8
 lines(c(xat[4], xat[6]), c(yat, yat))
 lines(c(xat[4], xat[4]), c(yat+offset, yat))
 lines(c(xat[6], xat[6]), c(yat+offset, yat))
-text((xat[4] + xat[6])/2, yat-2*offset, expression(italic('N.S.')), cex=0.8)
+text((xat[4] + xat[6])/2, yat-3*offset, expression(italic('N.S.')), cex=1)
 
-lines(xat[1:2], b$stats[3,1:2], lwd=0.7)
-lines(xat[2:3], b$stats[3,2:3], lwd=0.7)
-lines(xat[4:5], b$stats[3,4:5], lwd=0.7)
-lines(xat[5:6], b$stats[3,5:6], lwd=0.7)
+lines(xat[1:2], b$stats[3,1:2], lwd=0.5)
+lines(xat[2:3], b$stats[3,2:3], lwd=0.5)
+lines(xat[4:5], b$stats[3,4:5], lwd=0.5)
+lines(xat[5:6], b$stats[3,5:6], lwd=0.5)
 
 lines(c(xat[1], xat[3]), c(0.5,0.5))
 lines(c(xat[4], xat[6]), c(0.5,0.5))
 
-#dev.off()
+dev.off()
 
