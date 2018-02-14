@@ -6,7 +6,9 @@
 \usepackage{authblk}
 \usepackage{charter}
 \usepackage[numbers]{natbib}
-\usepackage{graphicx}
+\usepackage[draft]{graphicx}  %% remove [draft] to compile with pictures
+\graphicspath{{../figures/}}
+\usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{titlesec}
 
@@ -71,10 +73,10 @@ also function as motile propellers in certain cells
 \citep{bloodgood2010sensory}.
 Consistent with their pervasiveness and importance in cell signalling,
 defects in cilium formation are associated with various genetic disorders
-known collectively as ciliopathies, which can display
+known collectively as ciliopathies, which can 
 neurological defects \citep{valente2014primary},
-skeletal abnormalities \citep{hammarsjo2017novel, waters2011ciliopathies}
-and infertility \citep{inaba2016sperm}.
+skeletal abnormalities \citep{hammarsjo2017novel, waters2011ciliopathies},
+and infertility \citep{inaba2016sperm} in addition to other phenotypes.
 
 A large number of ciliopathies are linked to mutations in proteins that
 localize to the cilium transition zone (referred to herein as TZ).
@@ -128,64 +130,71 @@ maturation and function, acting to support ciliogenesis.
 To investigate whether reduction of cellular \PIP{} affects ciliogenesis in the
 Drosophila male germline,
 we used transgenic flies expressing the Salmonella phosphoinositide phosphatase SigD
-under $\beta$2-tubulin promoter (referred to herein as \sigd{}),
-which is uniquely expressed in spermatocytes
+under the $\beta$2-tubulin promoter (referred to herein as \sigd{}),
+which is expressed exclusively in spermatocytes
 \citep{wei2008depletion, fabian2010phosphatidylinositol}.
-We previously showed that expression of this construct
-induced male sterility due in part to defects in flagellar biosynthesis \citep{wei2008depletion}.
-We examined the localization of fluorescently-labelled centriolar/basal body protein
+We previously showed that \sigd{} induces male sterility
+due in part to defects in flagellar biosynthesis \citep{wei2008depletion}.
+To understand whether this was due to aberrant TZ function,
+we examined the localization of fluorescently-labelled
+centriolar/basal body protein
 Ana1 (CEP295 homolog) \citep{goshima2007genes, blachon2009proximal}
 and the TZ protein Cep290 \citep{basiri2014migrating}
-in wild-type control and \sigd{} spermatocytes.
-As shown in Figure 1A, nascent TZs marked with Cep290-GFP assemble normally in \sigd{} cells
-but grow to much longer lengths compared to wild-type control cells.
-TZ hyperelongation was a highly penetrant phenotype (\textgreater 90\%)
-and showed high intra-cyst correlation.
+during early steps of cilium assembly in spermatocytes in both
+wild-type controls and \sigd{}.
+As shown in Figure 1A, Cep290 grew to much longer lengths in \sigd{}
+compared to wild-type controls.
+Ana1 lengths were not affected, and we did not observe an inverse
+correlation between Cep290 and Ana1 length.
 This phenotype was not specific to Cep290;
 all TZ markers examined showed hyperelongation, including
 acetylated tubulin \citep{gottardo2013cilium},
 Chibby \citep{enjolras2012drosophila} and
 MKS \citep{slaats2015mks1, vieillard2016transition} proteins (Figure 1).
+TZ hyperelongation was a highly penetrant phenotype (\textgreater 90\%)
+and showed high intra-cyst correlation (\textgreater 0.95) suggestive
+of a dosage-based response to a shared cellular factor.
 Hyperelongated TZs persisted through meiosis.
-Despite TZ hyperlongation, however, axonemes were able to elongate post-meiosis (Figure 1).
-As we showed previously, the ultrastructure of these axonemes was frequently aberrant,
+Despite TZ hyperlongation, however, axonemes were able to
+elongate post-meiosis (Figure 1).
+As we showed previously, the ultrastructure of these axonemes
+was frequently aberrant,
 either lacking symmetry completely or containing triplet microtubules instead of doublets
 \citep{wei2008depletion}.
 
 \subsection{The type I PIP kinase Skittles localizes to centrioles and regulates TZ length}
-Although numerous studies have shown that \PIP{} is the major substrate for SigD
-when expressed in eukaryotic cells
+While \PIP{} is the major substrate for SigD in eukaryotic cells \textit{in vivo}
 \citep{terebiznik2002elimination, zhou2001salmonella, sengupta2013depletion},
-SigD can dephosphorylate other PIPs \textit{in vitro}
+SigD can also dephosphorylate other PIPs \textit{in vitro}
 \citep{norris1998sopb}.
-To address whether TZ hyperelongation observed in \sigd{} represented
-a physiologically relevant phenotype in response to decreased \PIP{},
+To address whether TZ hyperelongation observed in \sigd{} represented a
+physiologically relevant phenotype in response to decreased \PIP{},
 we attempted to rescue it by
 co-expressing fluorescently-tagged full-length Sktl (Sktl) with SigD
 under the same promoter.
 We found that Sktl expression was able to suppress TZ elongation in a cilium-autonomous
-manner (Figure 2).
-We also found that \textit{sktl} clones showed penetrant TZ hyperelongation when
-marked with Unc-GFP, a ciliary marker \citep{baker2004mechanosensory}.
+manner (Figure 2A and B).
+We also found that \textit{sktl} clones using Flp/FRT-based mitotic recombination
+showed penetrant TZ hyperelongation (Figure 2C).
 
-Since Sktl expression lead to cilium-autonomous rescue,
+Since Sktl expression suppressed TZ hyperelongation,
 we investigated whether Sktl could localize to centrioles or cilia in the Drosophila germline.
 Similar to the human PIPKI$\gamma$ isoform \citep{xu2014pipkigamma},
 we found that Sktl localizes to basal bodies in the Drosophila male germline.
 As shown in Figure 2, Drosophila PIPKIs arose from the recent duplication of
 the ancestral PIPKI gene, and are not orthologous to specific vertebrate PIPKI isoforms.
-Sktl has diverged more than the paralogous PIP5K59B gene, and seems
+Sktl has diverged more than its paralog PIP5K59B, and seems
 to be functionally related to PIPKI$\gamma$ in its roles at cilia.
 However, unlike the human PIPKI$\gamma$, which functions to license TZ assembly
-by promoting CP110 uncapping from basal bodies \citep{xu2016phosphatidylinositol},
+by promoting CP110 removal from basal bodies \citep{xu2016phosphatidylinositol},
 our results suggest that Sktl functions in
 regulating TZ length in the Drosophila male germline
-but is dispensable for its assembly.
+but not its assembly.
 Cp110 is dispensable for cilium formation in Drosophila \citep{franz2013cp110}
 and we found its localization to be unaffected in \sigd{} (supplementary figure 1).
 
 \subsection{Hyperelongated transition zones show signs of functional defects}
-While shorter spermatocyte TZs have been observed in Drosophila mutants of TZ proteins
+While shorter spermatocyte TZs have been reported in mutants of TZ proteins in Drosophila
 \citep{vieillard2016transition, pratt2016drosophila},
 no genetic manipulation has been reported to induce hyperelongated TZs. 
 We sought to examine whether TZ hyperelongation due to SigD expression
@@ -197,44 +206,51 @@ We found that
 TZs that assembled in \sigd{} cells are non-migratory despite the growth of the
 axoneme and the cell membrane, as shown by Unc and Cep290 localization.
 We previously described ``comet-shaped'' localization of Unc-GFP in these cells,
-and we find that these hyperelongated Unc signals persist into cellular elongation.
+and we find that these hyperelongated Unc signals persist into cellular elongation
+despite elongation of the axoneme.
 
-Another phenotype that is consistent with this hypothesis is
-the observation of the centriolar protein Ana1 localizing to the distal tips of
-hyperelongated TZs.
-TZ-distal Ana1 localization is observed at a relatively low penetrance
+%% reword this, paragraph is garbage
+We previously described the presence of occasional triplet microtubules
+in electron micrographs of axonemes from \sigd{} \citep{wei2008depletion}.
+While centrioles and basal bodies contain microtubule triplets,
+restriction of the C-tubule at the TZ causes the axoneme to
+consist of microtubule doublets rather than triplets throughout its length.
+Consistent with a defect in TZ barrier formation and presence of
+microtubule triplets in axonemes,
+we observed that a subset of cilia in \sigd{}
+contained puncta of Ana1, a core centriolar protein, at the tips
+of TZs marked with Cep290.
+This TZ-distal Ana1 localization is observed at a relatively low penetrance
 and high intra-cyst correlation.
-This is possibly related to stochastic SigD expression in cysts.
 We found that treatment of germ cells with Paclitaxel as in \citep{riparbelli2013unique}
 could increase the penetrance of this phenotype.
 Paclitaxel treatment stabilizes microtubules and is thought to disrupt TZ maturation
 by interrupting microtubule rearrangements, and similarly induces much longer cilia.
 Paclitaxel treatment alone did not induce this phenotype in wild-type controls in our hands
-at varying concentrations (binomial probability < 0.001 with 5\% penetrance),
+at varying concentrations ($p$ <0.01 with 5\% penetrance),
 suggesting that loss of \PIP{} acts upstream of or prior to microtubule rearrangement.
-Although we can not show a definitive reason for this, we expect that this is due to
-the axoneme maintaining some centriolar fate.
-We had previously shown the presence of microtubule triplets in axonemes assembled in \sigd{}
-cells.
-These are also observed in Taxol-treated cells \citep{riparbelli2013unique}.
+Triplet microtubules within the axoneme are also observed in Taxol-treated cells \citep{riparbelli2013unique}.
 It is possible that the TZ defect allows C-tubules and some centriolar proteins
 to migrate with it to the distal end.
 We did not observe this behaviour with Asterless,
 a migratory protein that localizes to the outer
-ring of centrioles (Figure 3).
+ring of centrioles ($p$ <0.01).
 
 \subsection{The \textit{onion rings} mutant decouples defects found in cells with reduced levels of \PIP{}}
 A heterozygous mutation in the human \textit{EXOC8},
 the human ortholog of yeast Exo84, is linked to
 Joubert syndrome \citep{dixon2012exome}.
+EXOC8, the human ortholog of Exo84, is a component of the octameric exocyst complex, which binds
+\PIP{} and regulates membrane trafficking at the plasma membrane.
 We previously showed that male flies homozygous for the \textit{onion rings}
 (\textit{onr}) mutant of Drosophila Exo84 were sterile, with phenotypes
 similar to \sigd{} \citep{wei2008depletion}.
-Exo84 is a component of the octameric exocyst complex, which binds
-\PIP{} and regulates membrane trafficking at the plasma membrane.
-We found that the \textit{onr} mutant did not display hyperelongated TZs (Figure 5).
+To investigate whether defects in TZ hyperelongation could be explained by
+defective Exo84 function, we examined TZs in \textit{onr} mutants.
+We found that the \textit{onr} mutant did not display hyperelongated TZs (Figure 5),
+suggesting that Exo84 is dispensable for TZ maturation.
 
-Since exocyst regulates membrane trafficking and cilium formation,
+Due to the involvement of exocyst in membrane trafficking at the plasma membrane,
 we examined whether cilium-associated membrane dynamics were affected in \sigd{}
 or \textit{onr} mutants similar to \textit{dila; cby} mutants
 \citep{vieillard2016transition}.
@@ -245,7 +261,7 @@ membrane connections, and were rendered cytoplasmic (Figure 5) similar to
 Although we were not able to determine the localization of Exo84 due to the
 lack of available antibodies,
 we found that Sec6 and Exo70 localized to the plasma membrane as expected,
-but were not enriched at the cilium.
+but were not enriched at the cilium (Figure 5C).
 Our results suggest that the exocyst may act downstream of \PIP{} to
 enhance cilium-membrane associations, and that TZ hyperelongation and loss of
 membrane-cilium association are genetically separable phenotypes.
@@ -424,12 +440,86 @@ J.A.B. supervised the project.
 
 
 \section{Acknowledgements}
-We thank Brian Ciruna for his input on the project
+We thank Brian Ciruna for insightful comments on the project
 and Bénédicte Durand for providing unpublished fly stocks.
 This work was supported by a grant from the Canadian Institute for Health Research
 (CIHR) to J.A.B.
 
 
 \bibliography{bibttc}
+
+\newpage
+\section{Figures}
+
+%%
+%    FIGURE 1
+%
+\textbf{Figure 1. SigD expression induces transition zone hyperelongation.} 
+\begin{enumerate}[label={(\Alph*)}, nolistsep]
+\item \sigd{} expression induces Cep290 hyperelongation in mature (late G2 phase) cilia.  
+\item Paired Ana1-Cep290 lengths in nascent and mature cilia ($n$ \textgreater 30). 
+\item \sigd{} expression induces hyperelongation of other TZ markers, such as Cby, Mks
+  and acetylated tubulin.
+\item TZ hyperelongation persists through meiosis but does not affect
+  axoneme outgrowth.
+\end{enumerate}
+
+\begin{figure}[ht]
+  \includegraphics[scale=0.9]{figure-1/figure1.png}
+\end{figure}
+\newpage
+
+
+%%
+%    FIGURE 2
+%
+\textbf{Figure 2. Sktl is important for transition zone maturation and localizes to basal bodies.} 
+\begin{enumerate}[label={(\Alph*)}, nolistsep]
+\item Expression of full-length Sktl suppresses \sigd{}-induced TZ hyperelongation.
+\item Quantification of Cep290 and Ana1 lengths from control, \sigd{} and Sktl; \sigd{} ($n$\textgreater 60) from (A).
+\item \textit{sktl}$^{2.3}$ clones exhibit TZ hyperelongation.
+\item Phylogenetic tree of PIP5Ks showing conservation of cilium-associated functions.
+  The scale bar represents expected amino acid substitutions per site and branch support values are shown in red (a value of 1 indicates maximum support).
+Abbreviations: Cele (\textit{Caenorhabditis elegans}), Spur (\textit{Strongylocentrotus purpuratus}), Amel (\textit{Apis mellifera}), Aaeg (\textit{Aedes aegypti}), Dana (\textit{Drosophila ananassae}), Dmel (\textit{Drosophila melanogaster}), Hsap (\textit{Homo sapiens}), Mmus (\textit{Mus musculus}), Xtro (\textit{Xenopus tropicalis}), Cint (\textit{Ciona intestinalis}), Scer (\textit{Saccharomyces cerevisiae}).
+\end{enumerate}
+
+\begin{figure}[ht]
+  \includegraphics[scale=0.9]{figure-2/figure2.png}
+\end{figure}
+\newpage
+
+
+%%
+%    FIGURE 3
+%
+\textbf{Figure 3. Hyperelongated transition zones display functional defects.}
+\begin{enumerate}[label={(\Alph*)}, nolistsep]
+\item
+\item 
+\item 
+\item 
+\end{enumerate}
+
+%\begin{figure}[ht]
+%  \includegraphics[scale=0.9]{figure-3/figure2.png}
+%\end{figure}
+%\newpage
+
+
+%%%
+%%    FIGURE 4
+%%
+\textbf{Figure 4. The \textit{onion rings} (\textit{onr}) allele of \textit{d}Exo84 decouples TZ hyperlongation from loss of plasma membrane contacts.}
+\begin{enumerate}[label={(\Alph*)}, nolistsep]
+\item Cells mutant for \textit{onr} do not display hyperelongated TZs marked with acetylated tubulin.
+\item Quantification from (A).
+\item Cells mutant for \textit{onr} display loss of plasma membrane tethering.
+\end{enumerate}
+
+%\begin{figure}[ht]
+%  \includegraphics[scale=0.9]{figure-4/figure2.png}
+%\end{figure}
+%\newpage
+
 
 \end{document}
