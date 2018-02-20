@@ -1,3 +1,6 @@
+#' Plotting for rescue
+#' Same data as figure 1 quantification
+
 png(filename="rescuelength.png", width=7, height=6,units="in", res=600)
 
 # import data
