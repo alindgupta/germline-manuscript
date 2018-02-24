@@ -12,6 +12,10 @@
 \usepackage{hyperref}
 \usepackage{titlesec}
 
+%% \usepackage{xcolor}
+%% \pagecolor[RGB]{42,47,56}
+%% \color[RGB]{189,189,161}
+
 \bibliographystyle{unsrtapalike}
 
 % title font size
@@ -57,9 +61,9 @@
   induces hyperelongation of TZs following their docking at the plasma
   membrane.
   We provide evidence that these hyperelongated TZs are functionally
-  defective, and that the Exo84 mutant \textit{onion rings} decouples
-  TZ hyperelongation from the role for \PIP{} in cilium-membrane
-  tethering.
+  defective, and that the Exo84 mutant \textit{onion rings}
+  \textit{onr} decouples TZ hyperelongation from the role for
+  \PIP{} in cilium-membrane tethering.
   Our observations reveals a requirement for \PIP{} at the base of cilia
   in regulating TZ length and function.
 \end{abstract}
@@ -94,7 +98,7 @@ studies ranging from single gene analysis to proteomics,
 processes underlying TZ maturation are not as well-studied.
 
 In the Drosophila male germline, nascent TZs first assemble on basal bodies
-during early G2 phase in spermatocytes and anchor directly to the plasma membrane.
+during G2 phase in spermatocytes and anchor to the plasma membrane.
 This is followed by establishment of cilium-membrane connections
 through a poorly understood mechanism
 involving microtubule rearrangements \citep{gottardo2013cilium} and a
@@ -346,16 +350,16 @@ of TZ assembly and maturation for TZ function.
 \subsection{Transgenic flies}
 Drosophila stocks were cultured on cornmeal molasses agar medium at 25$^{\circ}$C
 and 50\% humidity.
-Stocks expressing $\beta$\textit{2tubulin}::\textit{Styp}\textbackslash{SigD} (chromosome \textit{3})
-and $\beta$\textit{2tub}::YFP-Sktl (chromosome \textit{2})
+Stocks expressing $\beta$\textit{2t}::\textit{Styp}\textbackslash{SigD} (chromosome \textit{3})
+and $\beta$\textit{2t}::YFP-Sktl (chromosome \textit{2})
 were described previously \citep{wei2008depletion, fabian2010phosphatidylinositol}.
-$\beta$\textit{2tub}::mCherry-Sktl was made as in \citep{wei2008depletion},
+$\beta$\textit{2t}::mCherry-Sktl was made as in \citep{wei2008depletion},
 and a \textit{P}-element insertion on chromosome \textit{2} was used for rescue using the low-level
 expression vector \textit{tv3} \citep{wong2005pip2}.
 Ana1-tdTomato (chromosome \textit{2}) and Cep290-GFP (chromosome \textit{3}) were provided
 by T. Avidor-Reiss \citep{basiri2014migrating}.
 \textit{Sp}/\textit{CyO}; Unc-GFP was originally provided by M. Kernan \citep{baker2004mechanosensory}.
-Stocks expressing GFP-tagged Chibby, B9d1, B9d2, Cc2d2a and Mks1 were generously
+Stocks expressing GFP-tagged Chibby, B9d1, B9d2, Cc2d2a and Mks1 were
 provided by B. Durand \citep{enjolras2012drosophila, vieillard2016transition}.
 The \textit{onr} mutant was described previously \citep{giansanti2015exocyst}.
 Stocks for generating \textit{sktl}\textsuperscript{2.3} clones were originally provided by
@@ -384,7 +388,7 @@ Testes were transferred to a polylysine-coated glass slide in a drop of PBS,
 ruptured using a syringe needle and
 squashed under a glass coverslip using Kimwipes.
 The edges of the coverslip were sealed with nail polish
-and the specimen was visualized immediately using a fluorescence microscope.
+and the specimen was visualized immediately using an epifluorescence microscope.
 
 For Taxol treatments, testes from larvae or pupae expressing
 Ana1-tdTomato; Cep290-GFP were
@@ -392,7 +396,7 @@ dissected into Shields and Sang M3 medium (Sigma-Aldrich) supplemented
 with a predefined
 concentration of Taxol and incubated overnight in a humidified sterile
 chamber in the dark at room temperature. They were then squashed
-in PBS and visualized immediately.
+in PBS and imaged live.
 
 For CellMask staining, cells were spilled from testes in M3 medium onto
 a sterilized glass-bottom dish that was pre-treated with sterile polylysine solution
@@ -416,7 +420,8 @@ a Leica widefield microscope
 or Nikon A1R scanning confocal microscope (SickKids imaging facility).
 
 \subsection{Statistical methods}
-Statistical analysis and graphing was performed using R.
+Statistical analysis and graphing was performed using R (version 3.4)
+\citep{r}.
 A Gaussian jitter was applied when plotting
 results in Figures 1 and 2 for clearer visualization of trends,
 but raw data was used for all analysis.
