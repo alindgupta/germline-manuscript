@@ -1,7 +1,7 @@
 #' Plotting Unc-GFP lengths
 #' n = 30-60
 
-#png(filename="unc.png", width=7, height=6,units="in", res=600)
+png(filename="unc.png", width=3.5, height=6,units="in", res=600)
 
 # import data
 df <- read.csv('unc.csv', header=TRUE)
@@ -17,7 +17,7 @@ df <- addNoise(df)
 
 library(RColorBrewer)
 
-cols <- brewer.pal(9,"Set1")[c(9,4,5)]
+cols <- brewer.pal(9,"Set1")[c(9,2,4)]
 
 par(bty="n",
     mar=c(2, 4, 3, 0),  # plot margins b-l-t-r
@@ -80,7 +80,5 @@ lines(c(xat[1], xat[1]), c(yat+offset, yat))
 lines(c(xat[2], xat[2]), c(yat+offset, yat))
 text((xat[1] + xat[2])/2, yat-2*offset, expression(italic('p')<0.01), cex=1)
 
-
-
-#dev.off()
+dev.off()
 
