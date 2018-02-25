@@ -12,10 +12,6 @@
 \usepackage{hyperref}
 \usepackage{titlesec}
 
-%% \usepackage{xcolor}
-%% \pagecolor[RGB]{42,47,56}
-%% \color[RGB]{189,189,161}
-
 \bibliographystyle{unsrtapalike}
 
 % title font size
@@ -79,51 +75,54 @@ Consistent with their importance in cell signalling,
 defects in cilium formation are associated with genetic disorders
 known collectively as ciliopathies, which can display
 neurological defects \citep{valente2014primary},
-skeletal abnormalities \citep{hammarsjo2017novel, waters2011ciliopathies},
-and infertility \citep{inaba2016sperm} in addition to other phenotypes.
+skeletal abnormalities \citep{hammarsjo2017novel},
+and infertility \citep{inaba2016sperm} in addition to other phenotypes
+\citep{waters2011ciliopathies}.
 
 A large number of ciliopathies are linked to mutations in proteins that
 localize to the cilium transition zone (referred to herein as TZ).
 The TZ is the proximal-most region of the cilium and
-acts as a diffusion barrier that regulates the
+functions as a diffusion barrier that regulates the
 bi-directional transport of protein and lipid cargo at the base of the cilium
 \citep{reiter2012base, szymanska2012transition}.
-The TZ is essential for cilium formation (ciliogenesis) and cilium-associated
+The TZ is essential for cilium formation (ciliogenesis) and cilium-based
 signalling.
 The conserved TZ protein CEP290, for example, is mutated in at least
-six different ciliopathies, and is essential for cilium formation in both humans
+six different ciliopathies with a spectrum of clinical features and severities
+, and is important for cilium formation
+and function in both humans \citep{shimada2017vitro, stowe2012centriolar}
 and Drosophila \citep{basiri2014migrating}.
 Although the protein composition of TZs has been investigated in various
 studies ranging from single gene analysis to proteomics,
 processes underlying TZ maturation are not as well-studied.
 
+Ciliogenesis begins with the assembly of TZ proteins at the tips of
+the basal body.
+This nascent TZ undergoes maturation, where the structure and protein
+composition changes, allowing for anchoring of the TZ to the membrane and
+establishment of a compartmentalized space bounded by the ciliary membrane
+and the TZ.
 In the Drosophila male germline, nascent TZs first assemble on basal bodies
 during G2 phase in spermatocytes and anchor to the plasma membrane.
 This is followed by establishment of cilium-membrane connections
 through a poorly understood mechanism
-involving microtubule rearrangements \citep{gottardo2013cilium} and a
+involving microtubule rearrangements \citep{gottardo2013cilium}, and a
 ciliary membrane that persists through meiosis \citep{riparbelli2012assembly}.
-Ciliogenesis begins with the assembly of TZ proteins at the tips of
-the nascent basal body.
-This is followed by the anchoring of the TZ to the membrane and
-establishment of a compartmentalized space bounded by the ciliary membrane
-and the TZ.
 TZ maturation has been described in
 \textit{Paramecium} \citep{aubusson2015transition}
 \textit{Caenorrhabditis elegans} \citep{serwas2017centrioles} and
 \textit{Drosophila melanogaster} \citep{gottardo2013cilium}
-and is most readily observed by an increase in TZ length from nascent to mature.
-This are probably similar to the initial steps of TZ assembly and reorganization
+and is most readily observed by an increase in TZ length.
+We expect that this process is analogous to the initial steps of TZ assembly
+through sequential recruitment of TZ proteins and reorganization
 in vertebrates.
 
-Here, we show that the lipid phosphatidylinositol 4,5-bisphosphate (\PIP{})
-is essential for proper TZ maturation in developing male germ cells in \textit{D. melanogaster}.
-\PIP{} is a membrane lipid and one of seven phosphoinositides (PIPs)
-present in eukaryotic cells.
-It is primarily enriched at the plasma membrane and the base of cilia,
-but its functions in ciliogenesis have not been studied.
-We found that reduction of cellular \PIP{}
-by expression of the bacterial PIP phosphatase SigD
+Here, we show that the membrane lipid phosphatidylinositol 4,5-bisphosphate (\PIP{})
+is essential for proper TZ maturation in developing male germ cells
+in \textit{D. melanogaster}.
+\PIP{} is relatively enriched within the plasma membrane and the base of cilia
+in the male germline.
+We show that expression of the bacterial PIP phosphatase SigD
 or by inactivation of the PIP 5-kinase Skittles (Sktl) that localizes to cilia
 induces longer than normal TZs without affecting TZ assembly.
 These hyperelongated TZs show hallmarks of aberrant function similar to those
@@ -133,7 +132,7 @@ We also find that the \textit{onion rings} allele of the
 ciliopathy-associated \textit{EXOC8} gene encoding the human Exo84
 decouples TZ hyperelongation from loss of cilium-membrane contacts.
 Our results suggest that the plasma membrane lipid \PIP{} regulates TZ length,
-maturation and function, acting to support ciliogenesis.
+maturation and function, thereby acting to support ciliogenesis.
 
 
 \section{Results}
@@ -153,25 +152,28 @@ Ana1 (CEP295 homolog) \citep{goshima2007genes, blachon2009proximal}
 and the TZ protein Cep290 \citep{basiri2014migrating}
 during early steps of cilium assembly in spermatocytes in both
 wild-type controls and \sigd{}.
-As shown in Figure 1A, Cep290 grew to much longer lengths in \sigd{}
+As shown in Figure 1A,
+while Cep290 on nascent TZs look similar in wild-type and \sigd{}, 
+it grew to significantly longer lengths in \sigd{}
 compared to wild-type controls.
 Ana1 lengths were not affected, and we did not observe an inverse
 correlation between Cep290 and Ana1 length.
-This phenotype was not specific to Cep290;
+This hyperelongation phenotype was not specific to Cep290;
 all TZ markers examined showed hyperelongation, including
 acetylated tubulin \citep{gottardo2013cilium},
 Chibby \citep{enjolras2012drosophila} and
 MKS \citep{slaats2015mks1, vieillard2016transition} proteins (Figure 1).
 TZ hyperelongation was a highly penetrant phenotype (\textgreater 90\%)
 and showed high intra-cyst correlation (\textgreater 0.95) suggestive
-of a dosage-based response to a shared cellular factor.
+of a dosage-based response to a shared cellular factor,
+presumably SigD.
 Hyperelongated TZs persisted through meiosis.
 Despite TZ hyperlongation, however, axonemes were able to
 elongate post-meiosis (Figure 1).
 As we showed previously, the ultrastructure of these axonemes
 was frequently aberrant,
-either lacking symmetry completely or containing triplet microtubules instead of doublets
-\citep{wei2008depletion}.
+either lacking symmetry completely or containing triplet microtubules
+instead of doublets \citep{wei2008depletion}.
 
 \subsection{The type I PIP kinase Skittles localizes to centrioles and regulates TZ length}
 While \PIP{} is the major substrate for SigD in eukaryotic cells \textit{in vivo}
@@ -285,13 +287,13 @@ lethal \citep{}
 to late onset \citep{}.
 A large number of ciliopathies are associated with genes that encode for
 proteins that function at the cilium transition zone (TZ).
-Often, a single gene is linked to multiple ciliopathies with distinct phenotypes
-and severities.
+Often, a single gene is linked to multiple ciliopathies with
+a spectrum of phenotypes and severities.
 For example, \textit{CEP290} is linked to at least six different
 cilium-associated human disorders.
 It is likely that these mutations do not completely abolish CEP290
 function, and may be affected by genetic modifiers in an affected individual
-\citep{zaghloul2010functional}.
+\citep{zaghloul2010functional, khanna2009common, leitch2008hypomorphic}.
 Animal models with partial loss of TZ function may therefore provide
 insight on intermediate phenotypes associated with human disease.
 Here, we found that reduced levels of the membrane lipid \PIP{},
@@ -469,7 +471,8 @@ This work was supported by a grant from the Canadian Institute for Health Resear
 %
 \textbf{Figure 1. SigD expression induces transition zone hyperelongation.}
 \begin{enumerate}[label={(\Alph*)}, nolistsep]
-\item \sigd{} expression induces Cep290 hyperelongation in mature (late G2 phase) cilia.
+\item \sigd{} expression induces Cep290 hyperelongation in mature cilia.
+  Stages correspond to descriptions in \citep{cenci1994chromatin}.
 \item Paired Ana1-Cep290 lengths in nascent and mature cilia ($n$ \textgreater 30).
 \item \sigd{} expression induces hyperelongation of other TZ markers, such as Cby, Mks
   and acetylated tubulin.
