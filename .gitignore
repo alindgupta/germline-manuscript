@@ -13,3 +13,5 @@
 .Rhistory
 *.tmp*
 *.out
+*.RData
+*.rds
