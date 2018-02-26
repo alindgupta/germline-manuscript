@@ -1,4 +1,5 @@
-#' Perform fully Bayesian linear regression
+#' Perform fully Bayesian linear regression of
+#' the effect of Taxol and PIP2 levels on Cep290 length
 #' and plot Monte Carlo draws
 #'
 
@@ -21,7 +22,6 @@ lm.b <- df$length ~ df$pip2 + df$taxol + df$taxol*df$pip2
 #' @param y response variable,
 #'   which is Cep290 length in our case
 #' @param X model matrix
-#' 
 runStan <- function(y, X) {
   stan("bayeslm.stan",
        data = list(
