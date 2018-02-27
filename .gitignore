@@ -13,3 +13,9 @@
 *.out
 *.RData
 *.rds
+auto
+*.dvi
+*.fdb_latexmk
+*.fls
+*.pdfsync
+*.gz
