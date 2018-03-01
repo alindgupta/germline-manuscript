@@ -38,13 +38,6 @@ runStan <- function(y, X) {
 fit.a <- runStan(df$length, lm.a %>% model.matrix)
 fit.b <- runStan(df$length, lm.b %>% model.matrix)
 
-#'
-#'
-#'
-#'
-#'
-
-
 add.alpha <- function(col, alpha=1) {
   if (missing(col)) { stop("Please provide a vector of colours.") }
   apply(sapply(col, col2rgb)/255, 2, function(x)
@@ -52,7 +45,7 @@ add.alpha <- function(col, alpha=1) {
 }
 
 cols <- brewer.pal(9, "Set1")
-dev.off()
+
 par(bty="n",
     mar=c(2, 5, 2, 2),
     las=1,
@@ -97,9 +90,8 @@ plot(1,
 
 plotMC(fit.b, "coeff", rep(30, 4))
 
-
 legend("topleft",
-       c("Intercept", "PIP2", "Taxol", "PIP2:Taxol"),
+       c("Intercept", "PIP2", "Taxol", "PIP2*Taxol"),
        col=cols,
        lty=1, 
        lwd=2,
