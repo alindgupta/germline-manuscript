@@ -93,6 +93,3 @@ lines(c(xat[7], xat[7]), c(yat-offset, (yat)))
 text((xat[5] + xat[7])/2, yat+3*offset, expression(italic('N.S.')), cex=1)
 
 dev.off()
-
-
-
