@@ -1,7 +1,6 @@
 #' Perform fully Bayesian linear regression of
 #' the effect of Taxol and PIP2 levels on Cep290 length
 #' and plot Monte Carlo draws
-#'
 
 library(rstan)
 library(shinystan)
@@ -21,8 +20,7 @@ lm.a <- df$length ~ df$pip2 + df$taxol
 lm.b <- df$length ~ df$pip2 + df$taxol + df$taxol*df$pip2
 
 #' Run Monte Carlo simulation
-#' @param y response variable,
-#'   which is Cep290 length in our case
+#' @param y response variable, which is Cep290 length in our case
 #' @param X model matrix
 runStan <- function(y, X) {
   stan("bayeslm.stan",
@@ -44,6 +42,18 @@ add.alpha <- function(col, alpha=1) {
     rgb(x[1], x[2], x[3], alpha=alpha))
 }
 
+plotMC <- function(stan.out, str, breaks) {
+  coefs <- rstan::extract(stan.out, str)[[1]]
+  for (i in 1:ncol(coefs)) {
+    hist(coefs[,i],
+         breaks=breaks[i],
+         xlim=c(min(coefs), max(coefs)),
+         col=add.alpha(cols[i], 0.9),
+         lty="blank",
+         add=TRUE)
+ }
+}
+
 cols <- brewer.pal(9, "Set1")
 
 par(bty="n",
@@ -60,18 +70,6 @@ plot(1,
      xlim=c(-1, 2),
      ylab="Frequency",
      main="Length = b0 + PIP2 + Taxol")
-
-plotMC <- function(stan.out, str, breaks) {
-  coefs <- rstan::extract(stan.out, str)[[1]]
-  for (i in 1:ncol(coefs)) {
-    hist(coefs[,i],
-         breaks=breaks[i],
-         xlim=c(min(coefs), max(coefs)),
-         col=add.alpha(cols[i], 0.9),
-         lty="blank",
-         add=TRUE)
-  }
-}
 
 plotMC(fit.a, "coeff", rep(30, 3))
 legend("topleft",
