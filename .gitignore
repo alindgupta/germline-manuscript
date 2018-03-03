@@ -19,3 +19,5 @@ auto
 *.fls
 *.pdfsync
 *.gz
+*.spl
+backup*
