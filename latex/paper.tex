@@ -6,6 +6,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{authblk}
 \usepackage{charter}
+\usepackage[charter]{mathdesign}
 \usepackage[numbers]{natbib}
 \usepackage{enumitem}
 \usepackage{hyperref}
@@ -210,33 +211,35 @@
     To address whether TZ hyperelongation observed in \sigd{} represented a
     physiologically relevant phenotype in response to decreased \PIP{},
     we attempted to rescue it by
-    co-expressing fluorescently-tagged full-length Skittles (Sktl) with SigD
-    using the $\beta$2-tubulin promoter.
+    co-expressing SigD with
+    fluorescently-tagged full-length Skittles (Sktl)
+    using the same $\beta$2-tubulin promoter.
     We found that Sktl expression was able to suppress TZ hyperelongation
     in a cilium-autonomous manner (Figure 2A and B).
     We also found that \textit{sktl} clones made
-    using Flp/FRT-based mitotic recombination and co-expressing the
+    using Flp/FRT-based mitotic recombination and expressing the
     basal body and TZ marker Unc
     \citep{baker2004mechanosensory, wei2008depletion}
-    exhibited TZ hyperelongation (Figure 2C).
+    exhibited TZ hyperelongation (Figure 2C),
+    suggesting that Sktl is important for TZ maturation.
 
    % Since Sktl expression suppressed TZ hyperelongation,
    % we investigated whether Sktl could localize to centrioles or cilia
    % in the Drosophila germline.
-    A study by Xu \textit{et al}. showed the human PIPKI$\gamma$ to be
-    essential for cilium formation
+    Xu \textit{et al}. showed the vertebrate PIPKI$\gamma$ to be
+    important for cilium formation in cultured cell lines
     \citep{xu2014pipkigamma}.
     As shown in Figure 2D, Drosophila PIPKIs arose from the recent duplication of
     the ancestral PIPKI gene,
     and are not orthologous to specific vertebrate PIPKI isoforms.
     Sktl has diverged more than its paralog PIP5K59B, and seems
     to be functionally related to PIPKI$\gamma$ in its roles at cilia,
-    as well as the \textit{C. elegans} PPK-1 \citep{xu2014pipkigamma}.
+    as well as the \textit{C. elegans} PPK-1 (See supplementary data in \citep{xu2014pipkigamma}).
     However, unlike the human PIPKI$\gamma$, which functions to license TZ assembly
     by promoting CP110 removal from basal bodies \citep{xu2016phosphatidylinositol},
     our results suggest that Sktl functions in
     regulating TZ length in the Drosophila male germline
-    but not its assembly.
+    but not TZ assembly.
     Cp110 is dispensable for cilium formation in Drosophila \citep{franz2013cp110}
     and we found its localization to be unaffected in \sigd{} (Supplementary figure 1).
     
@@ -246,7 +249,7 @@
     \subsection{Hyperelongated transition zones exhibit signs of functional defects}
     We sought to examine whether TZ hyperelongation due to SigD expression
     affected TZ function.
-    During germ cell elongation following meiosis, the TZ detaches from
+    During cell elongation following meiosis, the TZ detaches from
     the basal body and migrates along the growing axoneme, maintaining a ciliary compartment
     at the distal-most {\raise.17ex\hbox{$\scriptstyle\sim$}}5$\mu$m where tubulin
     is presumably incorporated into the axoneme
@@ -257,14 +260,15 @@
     (Figures 3A and 3B).
     We previously described ``comet-shaped'' localization of Unc-GFP in these cells,
     and we find that these hyperelongated Unc signals persist into cellular elongation
-    despite elongation of the axoneme.
+    despite elongation of the axoneme (Figure 3A, bottommost panel).
 
-    Normally, centrioles and basal bodies consist of microtubule triplets,
-    whereas the axoneme contains microtubule doublets due to the obstruction of
+    In Drosophila and humans, basal bodies consist of microtubule triplets
+    \citep{jana2016drosophila, lattao2017centrioles}
+    while the axoneme contains microtubule doublets due to the obstruction of
     the C-tubule at the TZ \citep{gottardo2013cilium}.
-    Consistent with a defect in TZ barrier formation and the presence of
+    Consistent with a defect in the TZ barrier and the presence of
     microtubule triplets in axonemes in \sigd{} \citep{wei2008depletion},
-    we observed that a small subset of cilia in SigD-expressing cells
+    we observed that a subset of cilia (<5\%) in SigD-expressing cells
     contained puncta of Ana1, a core centriolar protein, at the tips
     of TZs marked with Cep290 (Figure 3C).
     We found that treatment of germ cells with Taxol as in \citep{riparbelli2013unique}
@@ -272,9 +276,9 @@
     Taxol treatment stabilizes microtubules and is thought to disrupt TZ maturation
     by inhibiting microtubule rearrangements \citep{riparbelli2012assembly}.
     Taxol treatment alone did not induce this phenotype in wild-type controls in our hands
-    at varying concentrations ($p$ <0.01 with 5\% penetrance).
+    at varying concentrations ($p$ <0.01 at 5\% penetrance).
     Triplet microtubules within the axoneme are also observed in Taxol-treated cells
-    \citep{riparbelli2013unique}, further evidencing a relationship between
+    \citep{riparbelli2013unique}, further supporting a relationship between
     \PIP{} and microtubule reorganization in TZ maturation.
     Asterless (homolog of CEP152), another centriolar protein,
     did not localize to TZ-distal puncta in \sigd{}
@@ -287,8 +291,8 @@
     %
     \subsection{The \textit{onion rings} mutant decouples defects found in cells with reduced levels of \PIP{}}
     We previously showed that male flies homozygous for the \textit{onion rings}
-    (\textit{onr}) mutant of Drosophila Exo84 were sterile, with phenotypes
-    similar to \sigd{} \citep{wei2008depletion}.
+    (\textit{onr}) mutant of Drosophila Exo84 were sterile, and had phenotypes
+    similar to \sigd{} such as defects in cell polarity \citep{wei2008depletion}.
     Exo84 is a component of the octameric exocyst complex, which binds
     \PIP{} and regulates membrane trafficking at the plasma membrane.
     To investigate whether defects in TZ hyperelongation could be explained by
@@ -306,7 +310,7 @@
     \textit{dila; cby} mutants.
     Although we were not able to determine the localization of Exo84 due to the
     lack of available reagents,
-    we found that Exo70 localized to centrioles (Figure 4D).
+    we found that GFP-tagged Exo70 localized to centrioles (Figure 4D).
     Exo70 can directly bind to \PIP{} and mediates the recruitment of
     the exocyst complex to the plasma membrane \citep{he2007exo70}.
     Our results suggest that the exocyst may act downstream of \PIP{} to
@@ -352,7 +356,10 @@
     function \citep{jao2017role} further supports this hypothesis.
     Thus, PIPKIs might represent novel ciliopathy-associated genes
     or genetic modifiers of disease.
-
+    
+    The gene \textit{EXOC8}, encoding the human Exo84, has also
+    been linked to Joubert syndrome, a ciliopathy
+    \citep{dixon2012exome}.
     Members of the exocyst complex, such as Sec10 and Sec6, have been shown
     to be important for cilium formation in cultured cell lines and zebrafish
     \citep{zuo2009exocyst, lobo2017exocyst, seixas2016arl13b}.
@@ -396,6 +403,7 @@
     chicken anti-GFP IgY (abcam) 1:1000;
     rat anti-RFP IgG (5F8, ChromoTek), 1:1000;
     rabbit anti-Cp110 (courtesy of J. Raff), 1:500;
+    rabbit anti-Centrin {Placeholder for origin}, 1:500;
     mouse anti-acetylated $\alpha$-tubulin 6-11-B (Sigma-Aldrich), 1:1000.
     Secondary antibodies were Alexa 488- and Alexa 568-conjugated
     anti-mouse, anti-rabbit and anti-chicken
@@ -468,7 +476,7 @@
     and colours were added for the purpose of illustration.
 
     \section{Supplemental information}
-    Includes two figures.
+    Includes two figures. (Pending attachment)
     
     \section{Acknowledgements}
     We are grateful to Brian Ciruna for insightful comments on the project,
@@ -507,6 +515,7 @@
       Unc-GFP.
     \item Phylogenetic tree of PIP5Ks showing conservation of cilium-associated functions.
       The scale bar represents expected amino acid substitutions per site and branch support values are shown in red (a value of 1 indicates maximum support).
+      Black arrows represent involvement in cilium-associated functions.
       Abbreviations: Cele (\textit{Caenorhabditis elegans}), Spur (\textit{Strongylocentrotus purpuratus}), Amel (\textit{Apis mellifera}), Aaeg (\textit{Aedes aegypti}), Dana (\textit{Drosophila ananassae}), Dmel (\textit{Drosophila melanogaster}), Hsap (\textit{Homo sapiens}), Mmus (\textit{Mus musculus}), Xtro (\textit{Xenopus tropicalis}), Cint (\textit{Ciona intestinalis}), Scer (\textit{Saccharomyces cerevisiae}).
     \end{enumerate}
     
@@ -518,7 +527,7 @@
     \item Structured illumination micrographs of \sigd{} cells show TZ-distal puncta of the centriolar protein Ana1.
     \item Treatment of \sigd{} cells with the microtubule stabilizing drug Taxol increases the penetrance of TZ-distal Ana1.
     \item Quantification of Cep290 lengths in Taxol-treated control and \sigd{} cells.
-      Inset shows distribution of regression coefficients (i.e. effects of Taxol and SigD on Cep290 length) from a fully Bayesian analysis.
+      % Inset shows distribution of regression coefficients (i.e. effects of Taxol and SigD on Cep290 length) from a fully Bayesian analysis.
     \end{enumerate}
 
 
@@ -563,6 +572,8 @@
 \end{figure}
 \newpage
 
+\textbf{Supplemental figures}
+Cp110 localization (pending attachment).
 
 \end{document}
 
