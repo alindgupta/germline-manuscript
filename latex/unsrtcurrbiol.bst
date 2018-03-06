@@ -215,7 +215,7 @@ FUNCTION {format.names}
     { s nameptr "{vv~}{ll}{, jj}{, f.}" format.name$ 't :=   % last name first
       nameptr #1 >
         { namesleft #1 >
-            { ". " * t * }
+            { ", " * t * }
             { numnames #2 >
                 { "," * }
                 'skip$
