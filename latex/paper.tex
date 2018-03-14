@@ -28,6 +28,9 @@
 \newcommand{\PIP}{PIP\textsubscript{2}}
 \newcommand{\sigd}{$\beta$\textit{2t}-SigD}
 \newcommand{\sktl}{\textit{sktl}}
+\makeatletter
+\renewcommand\@biblabel[1]{#1.}
+\makeatother
 
 % renewcommand
 \renewcommand*{\Affilfont}{\footnotesize \normalfont}
@@ -129,7 +132,7 @@
     \citep{riparbelli2012assembly} (Figure 1A).
     TZ maturation has been described in
     \textit{Paramecium} \citep{aubusson2015transition}
-    \textit{Caenorrhabditis elegans} \citep{serwas2017centrioles} and
+    \textit{Caenorhabditis elegans} \citep{serwas2017centrioles} and
     \textit{Drosophila melanogaster} \citep{gottardo2013cilium},
     and is most readily observed by an increase in TZ length
     in the Drosophila male germline.
@@ -521,6 +524,7 @@
     hypothesis assuming binomial likelihood (i.e. assuming a fixed probability of the
     phenotype occurring).
     All $t$-tests were unpaired and two-sided.
+    $n$ represents the pooled number of samples from multiple biological replicates.
     A significance level of 0.01 was fixed \textit{a priori} for all classical analysis.
     All raw data and code for analysis and plotting can be found online
     at \url{http://www.github.com/alindgupta/germline-paper/}.
@@ -558,9 +562,9 @@
     \textbf{Figure 1. SigD expression induces transition zone hyperelongation.}
     \begin{enumerate}[label={(\Alph*)}, nolistsep]
     \item Schematic diagram of the stages of ciliogenesis in the Drosophila male germline.
-      Stages in brackets correspond to those in \citep{cenci1994chromatin}.
-    \item \sigd{} expression induces Cep290 hyperelongation in late G2 cilia.
-    \item Paired Ana1-Cep290 lengths in early and late G2 phase in spermatocytes.
+      Stages in brackets correspond to those from \citep{cenci1994chromatin}.
+    \item \sigd{} expression induces Cep290 hyperelongation in cilia at late G2 phase (white arrowheads).
+    \item Paired Ana1-Cep290 lengths in early and late G2 phase in spermatocytes ($n$ >30 and >65 respectively).
     \item \sigd{} expression induces hyperelongation of Chibby and Mks1 in late G2 phase.
     \item TZ hyperelongation persists through meiosis but does not affect
       axoneme outgrowth.
@@ -571,32 +575,37 @@
     \item Expression of full-length Sktl suppresses \sigd{}-induced TZ hyperelongation.
     \item Quantification of Cep290 and Ana1 lengths from control, \sigd{} and Sktl; \sigd{} from (A).
     \item \textit{sktl}$^{2.3}$ clones exhibit TZ hyperelongation. Cilia are marked using
-      Unc-GFP.
+      Unc-GFP. The plot on the right shows quantification of Unc-GFP lengths in control and \sigd{}
+      spermatocytes at late G2 phase ($n$ >30).
     \item Phylogenetic tree of PIP5Ks showing conservation of cilium-associated functions.
       The scale bar represents expected amino acid substitutions per site and branch support values are shown in red (a value of 1 indicates maximum support).
       Black arrows represent involvement in cilium-associated functions.
       Abbreviations: Cele (\textit{Caenorhabditis elegans}), Spur (\textit{Strongylocentrotus purpuratus}), Amel (\textit{Apis mellifera}), Aaeg (\textit{Aedes aegypti}), Dana (\textit{Drosophila ananassae}), Dmel (\textit{Drosophila melanogaster}), Hsap (\textit{Homo sapiens}), Mmus (\textit{Mus musculus}), Xtro (\textit{Xenopus tropicalis}), Cint (\textit{Ciona intestinalis}), Scer (\textit{Saccharomyces cerevisiae}).
     \end{enumerate}
     
-    
     \textbf{Figure 3. Hyperelongated transition zones display functional defects.}
     \begin{enumerate}[label={(\Alph*)}, nolistsep]
     \item GFP-tagged Unc is unable to detach from the basal body and migrate in spermatids expressing \sigd{}.
       Cell elongation in spermatids is concomitant with elongation of the mitochondrial derivative (dark organelles in the phase contrast images).
+      Insets show phase contrast images corresponding to the region shown in the fluorescence images.
     \item Cep290 is unable to detach and migrate from the basal body at the onset of axoneme assembly in \sigd{} spermatids.
-    \item Structured illumination micrographs of \sigd{} cells show TZ-distal puncta of the centriolar protein Ana1.
-    \item Treatment of \sigd{} cells with the microtubule stabilizing drug Taxol increases the penetrance of TZ-distal Ana1.
-    \item Quantification of Cep290 lengths in Taxol-treated control and \sigd{} cells.
+      Insets show phase contrast images corresponding to the region shown in the fluorescence images with the
+      elongating mitochondria delineated by a yellow dashed line.
+    \item Structured illumination micrographs of \sigd{} cells show TZ-distal puncta of the centriolar protein Ana1 (yellow arrowheads).
+    \item Treatment of \sigd{} cells with the microtubule stabilizing drug Taxol increases the penetrance of TZ-distal Ana1 (white arrowheads)
+      but does not affect length.
+    \item Quantification of Cep290 lengths in Taxol-treated control and \sigd{} cells from (D).
       % Inset shows distribution of regression coefficients (i.e. effects of Taxol and SigD on Cep290 length) from a fully Bayesian analysis.
     \end{enumerate}
 
-
     \textbf{Figure 4. The \textit{onion rings} (\textit{onr}) allele of \textit{d}Exo84 decouples TZ hyperlongation from loss of plasma membrane contacts.}
     \begin{enumerate}[label={(\Alph*)}, nolistsep]
-    \item Cells expressing \sigd{} do not maintain plasma membrane-cilium tethering. The plasma membrane is marked with CellMask.
+    \item Cells expressing \sigd{} do not maintain plasma membrane-cilium tethering despite initially anchoring to the plasma membrane.
+      The plasma membrane is marked with CellMask, a cell impermeable dye.
     \item \textit{onr} mutants do not maintain plasma membrane-cilium tethering.
-    \item Cells mutant for \textit{onr} do not display hyperelongated acetylated tubulin signal at the cilium.
-    \item GFP-tagged Exo70 localizes to basal bodies.
+    \item Cells mutant for \textit{onr} do not display hyperelongated acetylated tubulin signal (white arrowheads) at the cilium.
+      Acetylated tubulin marks the axoneme, which fully overlaps with the TZ in spermatocytes \citep{pratt2016drosophila}.
+    \item GFP-tagged Exo70 localizes to basal bodies in late G2 spermatocytes.
     \end{enumerate}
     
   \end{linenumbers}
