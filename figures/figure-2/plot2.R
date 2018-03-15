@@ -80,5 +80,11 @@ lines(c(xat[1], xat[1]), c(yat+offset, yat))
 lines(c(xat[2], xat[2]), c(yat+offset, yat))
 text((xat[1] + xat[2])/2, yat-2*offset, expression(italic('p')<0.01), cex=1)
 
+yat <- 1.65
+lines(c(xat[2], xat[3]), c(yat, yat))
+lines(c(xat[2], xat[2]), c(yat+offset, yat))
+lines(c(xat[3], xat[3]), c(yat+offset+0.1, yat))
+text((xat[2] + xat[3])/2, yat-2*offset, expression(italic('p')<0.01), cex=1)
+
 dev.off()
 
