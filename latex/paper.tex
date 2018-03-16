@@ -19,7 +19,7 @@
 
 % title font size
 \titleformat*{\section}{\large\bfseries}
-\titleformat*{\subsection}{\normalsize\bfseries}
+\titleformat*{\subsection}{\normalsize\bfseries\itshape}
 
 % line spacing
 % \renewcommand{\baselinestretch}{1.1}
@@ -55,19 +55,20 @@
 \begin{doublespacing}
   \begin{linenumbers}
     
-    \section{Summary}
+    \section*{Summary}
     Cilia are sensory organelles that are essential for human development
     and physiology \citep{satir2010primary, marshall2006cilia}.
     They function primarily by relaying extracellular cues to cells
-    \citep{satir2010primary},
+    \citep{satir2010primary, bloodgood2010sensory},
     but can also act as motile propellers in certain cell types
-    \citep{bloodgood2010sensory}.
+    \citep{eley2005cilia}.
     A large number of genetic disorders linked to cilium dysfunction are
     associated with proteins that localize to the cilium transition zone (TZ),
     a structure at the base of cilia that regulates trafficking in and out
     of the cilium \citep{reiter2012base, szymanska2012transition}.
     Although substantial effort has been undertaken
-    to elucidate TZ proteins and their functions in cilium assembly and function,
+    to elucidate TZ proteins and their functions in cilium assembly and function
+    \citep{gonccalves2017ciliary},
     processes underlying maturation of TZs are not well understood.
     Here, we report a role for the membrane lipid
     phosphatidylinositol 4,5-bisphosphate
@@ -80,19 +81,19 @@
     induces the formation of longer than normal TZs.
     These hyperelongated TZs exhibit signs of functional defects,
     such as the inability
-    to be migratory \citep{basiri2014migrating} and loss of membrane tethering.
+    to be migratory \citep{basiri2014migrating} and loss of plasma membrane tethering.
     We also report that the \textit{onion rings} (\textit{onr}) allele
     of the Drosophila Exo84
     decouples TZ hyperelongation from loss of cilium-plasma membrane tethering.
     Our results reveal a requirement for \PIP{} in supporting ciliogenesis
     by promoting proper TZ maturation.
     
-    \section{Results}
+    \section*{Results}
     Cilia are sensory organelles that are present on almost all cells in the human body
     \citep{satir2010primary, marshall2006cilia}.
     They function in signal reception and transduction in response to extracellular cues,
     but also have roles in cellular and extracellular fluid motility
-    \citep{brooks2014multiciliated, marshall2006cilia},
+    \citep{marshall2006cilia, eley2005cilia, brooks2014multiciliated},
     for example, as the sperm flagellum.
     Consistent with their importance in cell signalling,
     defects in cilium formation (i.e. ciliogenesis) are associated with genetic disorders
@@ -108,12 +109,13 @@
     \citep{reiter2012base, szymanska2012transition}.
     The TZ is essential for ciliogenesis and function.
     For example, the conserved TZ protein CEP290 is mutated in at least
-    six different ciliopathies that lie on a spectrum of clinical features and severities
+    six different ciliopathies
+    \citep{rachel2012photoreceptor} that lie on a spectrum of clinical features and severities
     and is important for cilium formation
     and function in both humans \citep{shimada2017vitro, stowe2012centriolar}
     and Drosophila \citep{basiri2014migrating}.
     Although the protein composition of TZs has been investigated in various
-    studies ranging from single gene analysis to proteomics,
+    studies ranging from single gene analysis to proteomics \citep{gonccalves2017ciliary},
     the process of maturation of the TZ, through which it is converted from an
     immature form to one competent at supporting
     cilium assembly, is relatively understudied.
@@ -133,7 +135,7 @@
     ciliary membrane that will persist through meiosis
     \citep{riparbelli2012assembly} (Figure 1A).
     TZ maturation has been described in
-    \textit{Paramecium} \citep{aubusson2015transition},
+    Paramecium \citep{aubusson2015transition},
     \textit{Caenorhabditis elegans} \citep{serwas2017centrioles} and
     \textit{Drosophila melanogaster} \citep{gottardo2013cilium},
     and is most readily observed by an increase in TZ length
@@ -163,11 +165,12 @@
     %
     %   Results - 1
     %
-    \subsection{\PIP{} is essential for transition zone maturation}
+    \subsection*{\PIP{} is essential for transition zone maturation}
     To investigate how reduction of cellular \PIP{} affects ciliogenesis in the
     Drosophila male germline,
     we used transgenic flies expressing the Salmonella phosphoinositide phosphatase SigD
-    under the control of spermatocyte-specific $\beta$\textsubscript{2}-tubulin promoter (referred to herein as \sigd{}),
+    under the control of spermatocyte-specific $\beta$\textsubscript{2}-tubulin promoter
+    (referred to herein as \sigd{})
     \citep{wei2008depletion}.
     Note that \sigd{} corresponds to ``SigD-high'' in \citep{fabian2010phosphatidylinositol}.
     SigD dephosphorylates \PIP{} \textit{in vivo},
@@ -182,14 +185,14 @@
     Cep290 distribution appeared similar in control and \sigd{} in early G2 phase
     when TZs are still immature.
     In contrast, Cep290-labelled TZs were significantly longer in \sigd{}
-    compared to wild-type controls by the end of the G2 phase following
+    compared to wild-type controls by the end of G2 phase following
     the period of TZ maturation in spermatocytes (Figure 1B and 1C).
     Unlike Drosophila \textit{cep290} mutants, which contain
     longer than normal basal bodies \citep{basiri2014migrating},
     Ana1 length was not affected in \sigd{},
     and we did not observe a strong
     correlation between Cep290 and Ana1 lengths (Figure 1C).
-    We previously showed that the structure of basal bodies
+    We previously showed that the structure of basal bodies in \sigd{}
     from electron microscopy is normal, and that the localization of the centriolar
     marker GFP-PACT \citep{basto2006flies}
     is similar in controls and \sigd{} \citep{wei2008depletion}.
@@ -214,7 +217,7 @@
     %
     %   Results - 2
     %
-    \subsection{The type I PIP kinase (PIPKI) Skittles (Sktl) regulates TZ length}
+    \subsection*{The type I PIP kinase (PIPKI) Skittles (Sktl) regulates TZ length}
     Whereas \PIP{} is the major substrate for SigD in eukaryotic cells \textit{in vivo}
     \citep{terebiznik2002elimination, zhou2001salmonella, sengupta2013depletion},
     SigD can also dephosphorylate other PIPs \textit{in vitro}
@@ -226,18 +229,21 @@
     fluorescently-tagged Skittles (Sktl)
     using the same $\beta$\textsubscript{2}-tubulin promoter.
     We found that Sktl expression was able to suppress TZ hyperelongation
-    in a cilium-autonomous manner (Figure 2A and B).
+    in a cilium-autonomous manner (Figure 2A and 2B).
     We also found that \textit{sktl} clones made
     using Flp/FRT-based mitotic recombination and expressing the
     basal body and TZ marker Unc
     \citep{baker2004mechanosensory, wei2008depletion}
-    exhibited TZ hyperelongation (Figure 2C),
+    exhibited TZ hyperelongation at a low penetrance (Figure 2C),
     suggesting that Sktl is important for TZ maturation.
+    Note that the \textit{sktl}$^{2.3}$ allele used for making mitotic clones
+    is a hypomorph \citep{gervais2008pip5k}.
 
     A previous report showed the vertebrate PIPKI$\gamma$ to be
     important for cilium formation in cultured cell lines
     \citep{xu2014pipkigamma}.
-    Drosophila PIPKIs arose from the recent duplication of
+    The two Drosophila PIPKIs, namely Sktl and PIP5K59B,
+    arose from the recent duplication of
     the ancestral PIPKI gene,
     and are not orthologous to specific vertebrate PIPKI isoforms (Figure 2D).
     Sktl has diverged more than its paralog PIP5K59B, and seems
@@ -256,10 +262,10 @@
     %
     %   Results - 3
     %
-    \subsection{Hyperelongated transition zones exhibit signs of functional defects}
+    \subsection*{Hyperelongated transition zones exhibit signs of functional defects}
     We sought to examine whether TZ hyperelongation due to SigD expression
     affected TZ function.
-    During cell elongation following meiosis, the TZ detaches from
+    During cell elongation following meiosis in the Drosophila male germline, the TZ detaches from
     the basal body and migrates along the growing axoneme, maintaining a ciliary compartment
     at the distal-most {\raise.17ex\hbox{$\scriptstyle\sim$}}5$\mu$m where tubulin
     is presumably incorporated into the axoneme
@@ -269,7 +275,8 @@
     the basal body and migrating along the axoneme despite
     axoneme elongation (Figure 1E) and cellular elongation
     (Figures 3A and 3B).
-    We previously described ``comet-shaped'' localization of Unc-GFP in these cells,
+    We previously described ``comet-shaped'' localization of Unc-GFP in these cells
+    \citep{wei2008depletion},
     and we find that these hyperelongated Unc signals persist during cellular elongation
     despite elongation of the axoneme (Figure 3A bottommost panel and Figure 1E).
 
@@ -302,7 +309,7 @@
     %
     %   Results - 4
     %
-    \subsection{The \textit{onion rings} mutant decouples defects found in cells with reduced levels of \PIP{}}
+    \subsection*{The onion rings mutant decouples defects found in cells with reduced levels of \PIP{}}
     We previously showed that male flies homozygous for the \textit{onion rings}
     (\textit{onr}) mutant of Drosophila Exo84 were sterile, and had phenotypes
     similar to \sigd{} such as defects in cell polarity \citep{wei2008depletion}.
@@ -318,7 +325,7 @@
     or \textit{onr} mutants in a manner similar to \textit{dila; cby} mutants
     \citep{vieillard2016transition}.
     Whereas TZs in \sigd{} and \textit{onr} cells anchored properly
-    to the plasma membrane, they were unable to either establish or maintain
+    to the plasma membrane, they were unable to maintain
     membrane connections, and were rendered cytoplasmic (Figure 4A and B) similar to
     \textit{dila; cby} mutants.
     Although we were not able to determine the localization of Exo84 due to the
@@ -330,11 +337,11 @@
     cilium-membrane associations, similar to \PIP{}, and that TZ hyperelongation and loss of
     membrane-cilium association are genetically separable phenotypes.
 
-    \section{Discussion}
+    \section*{Discussion}
     The process of maturation of a TZ from a nascent form to a fully functional one,
     leading ultimately to axoneme assembly and ciliary signalling,
     requires orchestration of various proteins and cellular pathways
-    \citep{reiter2012base}.
+    \citep{reiter2012base, gonccalves2017ciliary}.
     In the Drosophila male germline, TZ maturation occurs during the
     extended G2 phase in spermatocytes prior to meiosis, and can be readily
     observed by an increase in TZ length using fluorescence microscopy.
@@ -371,8 +378,8 @@
     \citep{xu2016phosphatidylinositol}.
 
     In this study, we report two phenotypes associated with
-    hyperelongated TZs that we postulate to be indicators of
-    TZ dysfunction.
+    hyperelongated TZs that we hypothesize to be indicators of
+    dysfunction.
     Firstly, we show that hyperelongated TZs are unable to
     detach from basal bodies at the onset of axoneme elongation
     in spermatids, unlike TZs in normal cells \citep{basiri2014migrating, fabian2012drosophila}.
@@ -441,8 +448,8 @@
     and a similar process might underlie defects in humans with
     mutations in \textit{EXOC8}.
 
-    \section{Methods}
-    \subsection{Transgenic flies}
+    \section*{Methods}
+    \subsection*{Transgenic flies}
     Drosophila stocks were cultured on cornmeal molasses agar medium at 25$^{\circ}$C
     and 50\% humidity.
     Stocks expressing $\beta$\textsubscript{2}t::\textit{Styp}\textbackslash{SigD} (chromosome \textit{3}) and
@@ -459,7 +466,7 @@
     A. Guichet \citep{gervais2008pip5k}.
     \textit{w}\textsuperscript{1118} was used as the wild-type control.
 
-    \subsection{Antibodies}
+    \subsection*{Antibodies}
     The following primary antibodies were used for immunofluorescence
     at the indicated concentrations ---
     chicken anti-GFP IgY (abcam) 1:1000;
@@ -471,7 +478,7 @@
     IgG (Molecular Probes) at 1:1000.
     DAPI at 1:1000 was used to stain for DNA. 
 
-    \subsection{Fluorescence microscopy}
+    \subsection*{Fluorescence microscopy}
     For live imaging, testes were dissected in phosphate buffered saline (PBS).
     To stain for DNA, intact testes were incubated in PBS with
     Hoechst (1:5000) for 5 minutes.
@@ -480,6 +487,7 @@
     squashed under a glass coverslip using Kimwipes.
     The edges of the coverslip were sealed with nail polish
     and the specimen was visualized using an epifluorescence microscope.
+    Cells were examined live whenever possible to avoid artefacts from immunostaining.
 
     For Taxol treatments, testes from larvae or pupae expressing
     Ana1-tdTomato; Cep290-GFP were
@@ -508,7 +516,7 @@
     a Leica widefield microscope
     or Nikon A1R scanning confocal microscope (SickKids imaging facility).
 
-    \subsection{Statistical methods}
+    \subsection*{Statistical methods}
     Statistical analysis and graphing was performed using R (version 3.4)
     \citep{r}.
     A Gaussian jitter was applied when plotting
@@ -522,7 +530,7 @@
     All raw data and code for analysis and plotting can be found online
     at \url{http://www.github.com/alindgupta/germline-paper/}.
 
-    \subsection{Phylogenetic analysis}
+    \subsection*{Phylogenetic analysis}
     Candidate orthologs of Skittles and PIP5K9B were queried
     from Inparanoid (version 8.0) and FlyBase (version 2.0).
     Poorly annotated protein sequences were confirmed
@@ -534,76 +542,79 @@
     The output was converted to a vector image in Illustrator
     and colours were added for the purpose of illustration.
 
-    \section{Acknowledgements}
+    \section*{Acknowledgements}
     We are grateful to Brian Ciruna for insightful discussions,
     B{\'e}n{\'e}dicte Durand for providing (at the time of experiments)
     unpublished fly stocks, and to
     B{\'e}n{\'e}dicte Durand and Bill Trimble
     for comments on the manuscript.
     This research was supported by a grant from the Canadian Institutes for
-    Health and Research to J.A.B (MOP ???).
+    Health and Research to J.A.B (MOP \#130437).
     A.G. was supported by a
     University of Toronto Open Fellowship and
     an Ontario Graduate Scholarship.
     
-    \section{Author contributions}
+    \section*{Author contributions}
     A.G. and J.A.B. conceived the project.
     A.G. performed all the experiments and analysis, and wrote the manuscript.
     L.F. generated GFP-Exo70 flies.
     J.A.B. edited the manuscript and supervised the project.
     
-    \section{Declaration of interests}
+    \section*{Declaration of interests}
     The authors declare no competing interests.
 
-    \section{Figure legends}
+    \section*{Figure legends}
     
-    \textbf{Figure 1. SigD expression induces transition zone hyperelongation.}
+    \textbf{\itshape Figure 1. SigD expression induces transition zone hyperelongation.}
     \begin{enumerate}[label={(\Alph*)}, nolistsep]
     \item Schematic diagram of the stages of ciliogenesis in the Drosophila male germline.
-      Stages in brackets correspond to those from \citep{cenci1994chromatin}.
+      Stages in parentheses correspond to those from \citep{cenci1994chromatin}.
     \item \sigd{} expression induces Cep290 hyperelongation in cilia at late G2 phase (white arrowheads).
-    \item Paired Ana1-Cep290 lengths in early and late G2 phase in spermatocytes ($n$ >30 and >65 respectively).
-    \item \sigd{} expression induces hyperelongation of Chibby and Mks1 in late G2 phase.
+    \item Quantification of paired Ana1-Cep290 lengths in early and late G2 phase in spermatocytes ($n$ >30 and >65 respectively).
+    \item \sigd{} expression induces hyperelongation of Chibby (Cby) and Mks1 in late G2 phase.
     \item TZ hyperelongation persists through meiosis but does not affect
-      axoneme outgrowth.
+      axoneme outgrowth. Acetylated tubulin (AcTub) labels the axoneme.
     \end{enumerate}
     \bigskip
-    \textbf{Figure 2. Sktl is important for transition zone maturation.}
+    \textbf{\itshape Figure 2. Sktl is important for transition zone maturation.}
     \begin{enumerate}[label={(\Alph*)}, nolistsep]
-    \item Expression of full-length Sktl suppresses \sigd{}-induced TZ hyperelongation.
-    \item Quantification of Cep290 and Ana1 lengths from control, \sigd{} and Sktl; \sigd{} from (A).
-    \item \textit{sktl}$^{2.3}$ clones exhibit TZ hyperelongation. Cilia are marked using
+    \item Expression of full-length Sktl can suppress \sigd{}-induced TZ hyperelongation in a cilium-autonomous manner.
+      Images were chosen to demonstrate varying levels of rescue of Cep290-GFP length in YFP-Sktl; SigD.
+      White arrowheads mark rescued Cep290 distribution for comparison.
+    \item Quantification of Cep290 and Ana1 lengths from control, \sigd{} and $\beta$\textsubscript{2}t-YFP-Sktl; \sigd{} from (A).
+    \item \textit{sktl}$^{2.3}$ clones exhibit TZ hyperelongation (white arrowheads). Cilia are marked using
       Unc-GFP. The plot on the right shows quantification of Unc-GFP lengths in control and \sigd{}
       spermatocytes at late G2 phase ($n$ >30).
     \item Phylogenetic tree of PIP5Ks showing conservation of cilium-associated functions.
-      The scale bar represents expected amino acid substitutions per site and branch support values are shown in red (a value of 1 indicates maximum support).
-      Black arrows represent involvement in cilium-associated functions.
+      The scale bar (bottom) represents expected amino acid substitutions per site and branch support values are shown in red (a value of 1 indicates maximum support).
+      Black arrows represent previous evidence of involvement in cilium-associated functions from \citep{xu2016phosphatidylinositol}.
       Abbreviations: Cele (\textit{Caenorhabditis elegans}), Spur (\textit{Strongylocentrotus purpuratus}), Amel (\textit{Apis mellifera}), Aaeg (\textit{Aedes aegypti}), Dana (\textit{Drosophila ananassae}), Dmel (\textit{Drosophila melanogaster}), Hsap (\textit{Homo sapiens}), Mmus (\textit{Mus musculus}), Xtro (\textit{Xenopus tropicalis}), Cint (\textit{Ciona intestinalis}), Scer (\textit{Saccharomyces cerevisiae}).
     \end{enumerate}
     \bigskip
-    \textbf{Figure 3. Hyperelongated transition zones display functional defects.}
+    \textbf{\itshape Figure 3. Hyperelongated transition zones display functional defects.}
     \begin{enumerate}[label={(\Alph*)}, nolistsep]
-    \item GFP-tagged Unc is unable to detach from the basal body and migrate in spermatids expressing \sigd{}.
+    \item GFP-tagged Unc is unable to detach from the basal body and migrate (white arrowhead) in spermatids expressing \sigd{}.
       Cell elongation in spermatids is concomitant with elongation of the mitochondrial derivative (dark organelles in the phase contrast images).
       Insets show phase contrast images corresponding to the region shown in the fluorescence images.
     \item Cep290 is unable to detach and migrate from the basal body at the onset of axoneme assembly in \sigd{} spermatids.
       Insets show phase contrast images corresponding to the region shown in the fluorescence images with the
-      elongating mitochondria delineated by a yellow dashed line.
-    \item Structured illumination micrographs of \sigd{} cells show TZ-distal puncta of the centriolar protein Ana1 (yellow arrowheads).
-    \item Treatment of \sigd{} cells with the microtubule stabilizing drug Taxol increases the penetrance of TZ-distal Ana1 (white arrowheads)
-      but does not affect length.
+      elongating mitochondrial derivative delineated by a yellow dashed line.
+    \item Structured illumination micrographs of \sigd{} cells showing TZ-distal puncta of the centriolar protein Ana1 (yellow arrowheads).
+    \item Treatment of control and \sigd{} cells with the microtubule stabilizing drug Taxol.
+      Images were chosen to demonstrate the variety in Cep290 distribution.
+      White arrowheads mark TZ-distal Ana1 localization.
     \item Quantification of Cep290 lengths in Taxol-treated control and \sigd{} cells from (D).
       % Inset shows distribution of regression coefficients (i.e. effects of Taxol and SigD on Cep290 length) from a fully Bayesian analysis.
     \end{enumerate}
     \bigskip
-    \textbf{Figure 4. The \textit{onion rings} (\textit{onr}) allele of \textit{d}Exo84 decouples TZ hyperlongation from loss of plasma membrane contacts.}
+    \textbf{\itshape Figure 4. The \textit{onion rings} (\textit{onr}) allele of Exo84 decouples TZ hyperlongation from loss of plasma membrane contacts.}
     \begin{enumerate}[label={(\Alph*)}, nolistsep]
-    \item Cells expressing \sigd{} do not maintain plasma membrane-cilium tethering despite initially anchoring to the plasma membrane.
+    \item Cells expressing \sigd{} fail to maintain plasma membrane-cilium tethering despite initially anchoring to the plasma membrane.
       The plasma membrane is marked with CellMask, a cell impermeable dye.
     \item \textit{onr} mutants do not maintain plasma membrane-cilium tethering.
     \item Cells mutant for \textit{onr} do not display hyperelongated acetylated tubulin signal (white arrowheads) at the cilium.
-      Acetylated tubulin marks the axoneme, which fully overlaps with the TZ in spermatocytes \citep{pratt2016drosophila}.
-    \item GFP-tagged Exo70 localizes to basal bodies in late G2 spermatocytes.
+      Acetylated tubulin marks the axoneme, which colocalizes with the TZ in spermatocytes \citep{pratt2016drosophila}.
+    \item GFP-tagged Exo70 localizes to basal bodies in spermatocytes.
     \end{enumerate}
     
   \end{linenumbers}
@@ -613,7 +624,7 @@
 
 \newpage
 
-\section{Figures}
+\section*{Figures}
 
 \textbf{Figure 1}
 \begin{figure}[ht]
