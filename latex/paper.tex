@@ -6,8 +6,8 @@
 \usepackage[T1]{fontenc}
 \usepackage{authblk}
 \usepackage{charter}
-% \usepackage[charter]{mathdesign} % I hate how charter greeks look
-%\usepackage[numbers]{natbib}
+%\usepackage[charter]{mathdesign} % I hate how charter greeks look
+\usepackage[numbers]{natbib}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
@@ -15,10 +15,8 @@
 \usepackage{setspace}
 \usepackage{microtype}
 \graphicspath{{../figures/}}
-\usepackage[style=authoryear-icomp,maxbibnames=9,maxcitenames=2,backend=biber]{biblatex}
-%\bibliographystyle{unsrtapalike}
-%\bibliography{bibttc.bib}
-\addbibresource{\jobname.bib}
+\bibliographystyle{unsrtapalike}
+
 % title font size
 \titleformat*{\section}{\large\bfseries}
 \titleformat*{\subsection}{\normalsize\bfseries\itshape}
@@ -627,8 +625,8 @@ normal ciliary transition zone morphology and function in the Drosophila male ge
     \end{tabular}
 \end{doublespacing}
 
-%\bibliography{bibttc}
-\printbibliography
+\bibliography{bibttc}
+%\printbibliography
 
 \newpage
 
