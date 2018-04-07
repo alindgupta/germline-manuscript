@@ -147,7 +147,7 @@ normal ciliary transition zone morphology and function in the Drosophila male ge
     In Drosophila, nascent TZs first assemble on BBs
     during early G2 phase in primary spermatocytes \citep{riparbelli2012assembly}.
     This occurs concomitantly with anchoring of cilia to the plasma membrane (PM),
-    microtubule remodelling within the TZ \citep{gottardo2013cilium},
+    microtubule remodelling within the TZ \citep{riparbelli2013unique, gottardo2013cilium},
     and establishment of a
     ciliary membrane that will persist through meiosis
     \citep{riparbelli2012assembly} (Figure 1A).
@@ -251,7 +251,7 @@ normal ciliary transition zone morphology and function in the Drosophila male ge
     mutant clones (Figure 2C),
     indicating that Sktl is important for TZ maturation.
 
-    Vertebrate type I PIP kinase PIPKI$\gamma$ is important for cilium formation in cultured cells
+    Vertebrate type I PIP kinase PIPKI$\gamma$ has previously been shown to be important for cilium formation in cultured cells
     \citep{xu2016phosphatidylinositol}.
     The two Drosophila PIPKIs, Sktl and PIP5K59B,
     arose from recent duplication of
@@ -272,7 +272,7 @@ normal ciliary transition zone morphology and function in the Drosophila male ge
     % 
     % Results - 3
     % 
-    \subsection*{Hyperelongated transition zones exhibit signs of functional defects}
+    \subsection*{Hyperelongated transition zones exhibit functional defects}
     We next sought to examine whether TZ hyperelongation due to SigD expression
     affected TZ function.
     Following meiosis in the Drosophila male germline, TZs detach from
@@ -311,7 +311,7 @@ normal ciliary transition zone morphology and function in the Drosophila male ge
     suggesting that these TZ-distal
     sites are not fully centriolar in protein composition.
     Taxol has been hypothesized to disrupt TZ maturation
-    by inhibiting microtubule remodelling in the Drosophila male germline \citep{riparbelli2012assembly, riparbelli2013unique}.
+    by inhibiting microtubule remodelling in the Drosophila male germline \citep{riparbelli2013unique}.
     Similar to \sigd{},
     Taxol-treated male germ cells assemble extremely long axonemes
     that contain triplet microtubules
@@ -323,7 +323,7 @@ normal ciliary transition zone morphology and function in the Drosophila male ge
     % 
     \subsection*{The onion rings (\textit{onr}) mutant decouples defects found in cells with reduced levels of \PIP{}}
     Male flies homozygous for the \textit{onion rings}
-    (\textit{onr}) mutant of Drosophila Exo84 are sterile and exhibit defects
+    (\textit{onr}) mutant of Drosophila \textit{exo84} are sterile and exhibit defects
     in cell elongation and polarity
     similar to \sigd{} \citep{wei2008depletion}.
     Exo84 is a component of the octameric exocyst complex, which binds
@@ -393,7 +393,7 @@ normal ciliary transition zone morphology and function in the Drosophila male ge
     induced hyperelongated TZs
     and that expression of Sktl could suppress TZ hyperelongation in \sigd{},
     with some cells showing cilium-autonomous suppression,
-    suggesting Skittles might function \textit{in situ} to regulate TZ length.
+    suggesting Sktl might function \textit{in situ} to regulate TZ length.
     In humans, \textit{PIPKI$\gamma$} is linked to lethal congenital contractural
     syndrome type 3 (LCCS3), which has been suggested to represent a ciliopathy
     \citep{xu2016phosphatidylinositol}.
@@ -502,8 +502,7 @@ normal ciliary transition zone morphology and function in the Drosophila male ge
     or a Nikon A1R scanning confocal microscope (SickKids imaging facility).
 
     \subsection*{Statistical methods}
-    Statistical analysis and graphing was performed using R (version 3.4)
-    \citep{r}.
+    Statistical analysis and graphing was performed using R (version 3.4).
     A Gaussian jitter was applied when plotting
     results in Figures 1 and 2 for clearer visualization of trends,
     but raw data was used for all analyses.
@@ -529,10 +528,10 @@ normal ciliary transition zone morphology and function in the Drosophila male ge
 
     \section*{Acknowledgements}
     We are grateful to Brian Ciruna for insightful discussions,
-    B{\'e}n{\'e}dicte Durand, Tomer Avidor-Reiss, Antoine Guichet and Maurice Kernan for providing
-    unpublished fly stocks, and to
+    to B{\'e}n{\'e}dicte Durand, Tomer Avidor-Reiss, Antoine Guichet and Maurice Kernan for providing
+    fly stocks, and to
     B{\'e}n{\'e}dicte Durand and Bill Trimble
-    for comments on the manuscript.
+    for critical comments on the manuscript.
     This research was supported by a grant from the Canadian Institutes for
     Health and Research to J.A.B (MOP \#130437).
     A.G. was supported by a
@@ -541,7 +540,7 @@ normal ciliary transition zone morphology and function in the Drosophila male ge
     
     \section*{Author contributions}
     A.G. and J.A.B. conceived the project.
-    A.G. performed all the experiments and analysis, and wrote the manuscript.
+    A.G. performed all the experiments and analyses, and wrote the manuscript.
     L.F. generated GFP-Exo70 flies.
     J.A.B. edited the manuscript and supervised the project.
     
@@ -573,7 +572,7 @@ normal ciliary transition zone morphology and function in the Drosophila male ge
     \item \textit{sktl}$^{2.3}$ clones exhibit TZ hyperelongation (white arrowheads), as marked by
       Unc-GFP (left). Quantification of Unc-GFP lengths in control ($n$ = 53), \textit{sktl}$^{2.3}$ ($n$ = 31) and \sigd{}  ($n$ = 51)
       spermatocytes at late G2 phase (right).
-    \item Phylogenetic tree of PIP5Ks showing conservation of cilium-associated functions.
+    \item Phylogenetic tree of PIP5Ks showing evolutionary conservation of cilium-associated functions.
       Scale bar (bottom) represents expected amino acid substitutions per site. Branch support values are shown in red (a value of 1 indicates maximum support).
       Black arrows represent previous evidence of involvement in cilium-associated functions (from \citep{xu2016phosphatidylinositol}).
       Black arrowhead indicates Sktl.
@@ -582,7 +581,7 @@ normal ciliary transition zone morphology and function in the Drosophila male ge
     \bigskip
     \textbf{\itshape Figure 3. Hyperelongated transition zones display functional defects.}
     \begin{enumerate}[label={(\Alph*)}, nolistsep]
-    \item GFP-tagged Unc is unable to detach from the basal body and migrate in spermatids expressing \sigd{} (white arrowhead).
+    \item Unc-GFP is unable to detach from the basal body and migrate in spermatids expressing \sigd{} (white arrowhead).
       Cell elongation in spermatids is concomitant with elongation of the mitochondrial derivative (dark organelles in the phase-contrast images).
       Insets show phase-contrast images corresponding to the region shown in the fluorescence images.
     \item Cep290 is unable to detach and migrate from the basal body at the onset of axoneme assembly in \sigd{} spermatids (white arrowhead).
@@ -596,9 +595,9 @@ normal ciliary transition zone morphology and function in the Drosophila male ge
       % Inset shows distribution of regression coefficients (i.e. effects of Taxol and SigD on Cep290 length) from a fully Bayesian analysis.
     \end{enumerate}
     \bigskip
-    \textbf{\itshape Figure 4. The \textit{onion rings} (\textit{onr}) allele of Exo84 decouples TZ hyperlongation from loss of plasma membrane contacts.}
+    \textbf{\itshape Figure 4. The \textit{onion rings} (\textit{onr}) allele of \textit{exo84} decouples TZ hyperlongation from loss of plasma membrane contacts.}
     \begin{enumerate}[label={(\Alph*)}, nolistsep]
-    \item Cells mutant for \textit{onr} do not display hyperelongated acetylated tubulin signal at the cilium (white arrowhead).
+    \item \textit{onr} mutant cells do not display hyperelongated acetylated tubulin signal at the cilium (white arrowhead).
       Acetylated tubulin marks the axoneme, which colocalizes with the TZ in spermatocytes \citep{pratt2016drosophila}.
     \item Cells expressing \sigd{} fail to maintain cilium-PM tethering despite initially anchoring to the PM.
       The PM is marked with CellMask, a cell impermeable dye.
