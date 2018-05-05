@@ -1,4 +1,4 @@
-png(filename="fig1.png", width=7, height=6,units="in", res=600)
+png(filename="fig1.png", width=7, height=4,units="in", res=600)
 
 library(RColorBrewer)
 library(plotrix)
@@ -20,6 +20,7 @@ df <- addNoise(df)
 cols <- brewer.pal(9,"Set1")[c(9,4)]
 
 par(bty="n",
+    fig = c(0,1,0,1),
     mar=c(3, 4, 3, 0),  # plot margins b-l-t-r
     las=1,              # horizontal labels
     tcl=-.25,           # tick length
@@ -93,3 +94,4 @@ lines(c(xat[7], xat[7]), c(yat-offset, (yat)))
 text((xat[5] + xat[7])/2, yat+3*offset, expression(italic('N.S.')), cex=1)
 
 dev.off()
+
