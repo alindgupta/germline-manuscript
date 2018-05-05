@@ -1,3 +1,2 @@
 ## To-do
-- finish discussion
-- start on figures
+- Add Creative Common license
